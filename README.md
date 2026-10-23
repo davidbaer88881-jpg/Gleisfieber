@@ -6,12 +6,14 @@ Kooperatives Gleisbau-Spiel für 1–4 Spieler (auch online): Bäume und Felsen 
 
 Godot oder andere Programme braucht niemand – nur die passende Datei:
 
-| System | Datei |
+| System | Direkt herunterladen |
 |---|---|
-| Windows | `Gleisfieber-Windows.zip` |
-| Mac (Apple Silicon und Intel) | `Gleisfieber-macOS.zip` |
+| **Windows** | [⬇️ Gleisfieber-Windows.zip](https://github.com/davidbaer88881-jpg/Gleisfieber/raw/main/download/Gleisfieber-Windows.zip) (43 MB) |
+| **Mac** (Apple Silicon und Intel) | [⬇️ Gleisfieber-macOS.zip](https://github.com/davidbaer88881-jpg/Gleisfieber/raw/main/download/Gleisfieber-macOS.zip) (66 MB) |
 
-1. Datei herunterladen (unter **Releases** rechts auf dieser Seite bzw. im Ordner `download`).
+Aktuelle Version: **0.6.0** – die ausführliche Spielanleitung steht in [ANLEITUNG.md](ANLEITUNG.md) und im Spiel unter F1.
+
+1. Datei für dein System über den Link oben herunterladen.
 2. Entpacken.
 3. Starten:
    - **Windows:** `Gleisfieber.exe` doppelklicken. Falls „Der Computer wurde durch Windows geschützt“ erscheint: **Weitere Informationen → Trotzdem ausführen** (das Spiel ist nicht signiert).

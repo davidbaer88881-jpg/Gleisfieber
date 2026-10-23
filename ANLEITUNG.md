@@ -1,4 +1,4 @@
-# Gleisfieber – Anleitung (Version 0.7.0)
+# Gleisfieber – Anleitung (Version 0.8.0)
 
 ## Steuerung
 
@@ -7,11 +7,11 @@
 | Laufen | W A S D  oder  Pfeiltasten | Linker Stick / Steuerkreuz |
 | Aufheben · Ablegen · Tauschen | Leertaste – auf dem Feld, auf dem du stehst | A |
 | Gleis verlegen / zurücknehmen | Leertaste – auf dem Feld direkt am Streckenende stehen | A |
-| Einladen · Gleise nehmen · Waggon benutzen | Leertaste – genau neben DEM Waggon (nicht am Nachbarwaggon) | A |
+| Einladen · Gleise nehmen · Waggon benutzen | Leertaste – an DEM Waggon (von der Seite, vorne oder hinten) | A |
 | Glücksrad drehen | Shift: in den Glücksrad-Waggon hineinrollen | B |
 | Bahnhof: Waggon nehmen / einreihen / abstellen | Leertaste | A |
 | Bahnhof: Waggon ausbauen | E | X |
-| Lok löschen | Leertaste mit vollem Eimer direkt am Zug | A |
+| Lok löschen | Leertaste mit vollem Eimer am Zug – von jeder Seite, auch vorne und hinten | A |
 | Brücke bauen | Holz in der Hand, vor dem Wasser stehen, Leertaste (über Lava: Stein) | A |
 | Rolle (schneller nach vorne) | Shift | B |
 | Werkzeug benutzen | automatisch: gegen Baum, Fels oder Tier laufen | – |
@@ -44,7 +44,7 @@ Alle Tasten lassen sich unter *Einstellungen → Tastenbelegung ändern* umlegen
 
 ## Brücken
 
-Stell dich mit **Holz in der Hand** vor ein Wasserfeld und drück die **Leertaste**: Aus 1 Holz wird ein Stück aufgeschüttete Wiese. Darauf kannst du laufen und **Gleise verlegen**. Über **Lava** geht das genauso mit **Stein**. Nur den kleinen Teich am Start kann man nicht zuschütten – den braucht ihr zum Löschen. In schweren Levels (schwere Route und ab Level 7 jedes zweite Level) fließt ein breiter Fluss **quer über die ganze Karte**: Da muss die Strecke drüber.
+Stell dich mit **Holz in der Hand** vor ein Wasserfeld und drück die **Leertaste**: Aus 1 Holz wird ein Stück aufgeschüttete Wiese. Darauf kannst du laufen und **Gleise verlegen**. Über **Lava** geht das genauso mit **Stein**. Nur den kleinen Teich am Start kann man nicht zuschütten – den braucht ihr zum Löschen. Im Vulkanlevel gibt es zusätzlich einen Teich direkt am Vulkan. In schweren Levels (schwere Route und ab Level 7 jedes zweite Level) fließt ein breiter Fluss **quer über die ganze Karte**: Da muss die Strecke drüber.
 
 ## Gegner und Gemeinheiten
 
@@ -91,7 +91,7 @@ Standard ist **Automatisch**: allein fährt der Zug langsam, mit jedem weiteren 
 
 ## Speichern, Statistik, Replay
 
-Im Pausenmenü (oder mit F5) speicherst du den Spielstand, im Hauptmenü lädst du ihn. Am Bahnhof wird automatisch gespeichert. Unter *Statistik* stehen deine Rekorde und die letzten Fahrten. Nach einer Niederlage kannst du dir die Runde als **Replay im Zeitraffer** ansehen – mit allen Leveln dieser Fahrt hintereinander (Enter springt zum nächsten Level).
+Im Pausenmenü (oder mit F5) speicherst du den Spielstand, im Hauptmenü lädst du ihn. Am Bahnhof wird automatisch gespeichert. Unter *Statistik* stehen deine Rekorde und die letzten Fahrten. Nach einer Niederlage kannst du dir die Runde als **Replay im Zeitraffer** ansehen – mit allen Leveln dieser Fahrt hintereinander (Enter springt zum nächsten Level). **Online:** Der Host speichert im Pausenmenü auf einem *Online-Platz* (oder F5); am Bahnhof wird auch online automatisch gespeichert. Später: Online-Koop → Lobby erstellen → **„Spielstand laden …“** → Spielstand wählen → starten. Mitspieler mit demselben Namen bekommen ihren Platz und ihr Werkzeug zurück, wer fehlt, kann jederzeit nachkommen.
 
 ## Konto
 
@@ -101,4 +101,9 @@ Im Hauptmenü unter **Konto** meldest du dich mit E-Mail und Passwort an oder er
 
 **Lobby erstellen:** Hauptmenü → Online-Koop → Lobby erstellen. Den angezeigten **Code** an Freunde geben. Beim ersten Mal fragt der Computer, ob das Spiel Verbindungen annehmen darf – bitte **Erlauben**.
 **Beitreten:** Online-Koop → Lobby beitreten → Code eingeben. Spiele im selben WLAN erscheinen automatisch in der Liste.
+**Jederzeit dazukommen:** Während des Spiels steht der Beitritts-Code klein oben rechts (und im Esc-Menü zum Kopieren). Wer ihn eingibt, springt direkt ins laufende Level – auch nach einem Verbindungsabbruch.
 **Über das Internet:** Das Spiel versucht die Router-Freigabe automatisch (UPnP; FRITZ!Box: Internet → Freigaben → Portfreigaben → Gerät → „Selbstständige Portfreigaben erlauben“). Klappt das nicht: Portfreigabe **UDP 24570** zum Rechner des Hosts – oder alle nutzen das kostenlose **Tailscale**/ZeroTier und den Heimnetz-Code.
+
+## Updates
+
+Ab Version 0.8 aktualisiert sich das Spiel selbst: Beim Start schaut es auf GitHub nach einer neuen Version und lädt sie im Hintergrund herunter (wenige MB). Im Hauptmenü erscheint dann „Update ist bereit“ – mit einem Klick auf *Jetzt neu starten* ist es aktiv, sonst beim nächsten Start. Neu herunterladen muss man nur noch, wenn sich die Spiel-Engine ändert (das Spiel sagt dann Bescheid). Für Online-Spiele müssen alle dieselbe Version haben – nach dem Update also einmal neu starten.

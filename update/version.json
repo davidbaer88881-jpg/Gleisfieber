@@ -1,0 +1,6 @@
+{
+ "version": "0.8.0",
+ "notes": "Grundversion mit Updater",
+ "min_base": "0.8.0",
+ "pck": {}
+}

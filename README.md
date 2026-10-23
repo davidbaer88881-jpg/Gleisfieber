@@ -1,46 +1,193 @@
-# 🚂 Gleisfieber
+# Gleisfieber
 
-Kooperatives Gleisbau-Spiel für 1–4 Spieler (auch online): Bäume und Felsen abbauen, daraus Gleise herstellen und die Strecke rechtzeitig vor dem fahrenden Zug bis zum nächsten Bahnhof verlegen. Brücken über Flüsse bauen, Wildschweinen ausweichen, Diebe verjagen – Level für Level.
+Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder und Felsfelder durchhacken, Holz und Stein in den Zug laden, Gleise herstellen und rechtzeitig vor der Lok verlegen – bis die Strecke den nächsten Bahnhof erreicht. Zwischen den Levels steht man im begehbaren Bahnhof, kauft neue Waggons, baut den Zug aus und wählt die Route.
 
-## Herunterladen und spielen
+Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-Godot oder andere Programme braucht niemand – nur die passende Datei:
+**Stand: Version 0.8.0** – automatische Updates, Online-Spielstände, jederzeit per Code beitreten, 2 Gleise Puffer beim Start, Löschen und Einladen von allen Seiten, Figurenauswahl-Fenster, Teich am Vulkan, flüssigere Steuerung.
 
-| System | Direkt herunterladen |
-|---|---|
-| **Windows** | [⬇️ Gleisfieber-Windows.zip](https://github.com/davidbaer88881-jpg/Gleisfieber/raw/main/download/Gleisfieber-Windows.zip) (43 MB) |
-| **Mac** (Apple Silicon und Intel) | [⬇️ Gleisfieber-macOS.zip](https://github.com/davidbaer88881-jpg/Gleisfieber/raw/main/download/Gleisfieber-macOS.zip) (66 MB) |
+Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 
-Aktuelle Version: **0.7.0** – die ausführliche Spielanleitung steht in [ANLEITUNG.md](ANLEITUNG.md) und im Spiel unter F1.
+---
 
-1. Datei für dein System über den Link oben herunterladen.
-2. Entpacken.
-3. Starten:
-   - **Windows:** `Gleisfieber.exe` doppelklicken. Falls „Der Computer wurde durch Windows geschützt“ erscheint: **Weitere Informationen → Trotzdem ausführen** (das Spiel ist nicht signiert).
-   - **Mac:** Beim ersten Start **Rechtsklick auf Gleisfieber → Öffnen → Öffnen** (nicht notariert).
+## Schnellstart
 
-## Konto
+| System | Datei | Hinweis |
+|---|---|---|
+| Windows (x64) | `Gleisfieber.exe` | Doppelklick. Falls SmartScreen warnt: „Weitere Informationen“ → „Trotzdem ausführen“ (nicht signiert). |
+| macOS (Apple Silicon & Intel) | `Gleisfieber.app` | Beim ersten Start **Rechtsklick → Öffnen** (nicht notariert). Alternativ im Terminal: `xattr -cr Gleisfieber.app` |
 
-Im Hauptmenü unter **Konto** kannst du dich mit E-Mail und Passwort registrieren oder anmelden. Dann werden Spielstände und Rekorde online gesichert – sie bleiben erhalten, auch wenn du das Spiel löschst. Wer schon gespielt hat, meldet sich einfach an; der bisherige Fortschritt wird übernommen.
+Projekt im Editor: **Godot 4.7.2** (Standard, nicht .NET) → *Importieren* → `project.godot` → **F5**. Keine Plugins, keine kostenpflichtigen Abhängigkeiten.
 
-## Zusammen online spielen
+## Steuerung (Kurzfassung)
 
-1. Alle brauchen **dieselbe Version**.
-2. Einer hostet: Hauptmenü → **Online-Koop → Lobby erstellen**. Das Spiel zeigt einen **Code**.
-3. Die anderen: **Online-Koop → Lobby beitreten** → Code eingeben.
-4. Im selben WLAN klappt das sofort. Über das Internet muss beim Host der Router mitspielen (UPnP oder Portfreigabe **UDP 24570**) – oder alle nutzen das kostenlose **Tailscale**.
-5. Beim ersten Start fragt der Computer, ob das Spiel Verbindungen annehmen darf: **Erlauben**.
+| Aktion | Tastatur | Controller |
+|---|---|---|
+| Laufen | WASD / Pfeiltasten | linker Stick |
+| Aufheben · Ablegen · Tauschen (auf dem eigenen Feld) · Einladen · Gleise nehmen · Gleis legen · Lok löschen · Waggon benutzen · Kaufen | **Leertaste** (oder E) | A |
+| Brücke bauen (Holz in der Hand, vor dem Wasser; über Lava mit Stein) | **Leertaste** | A |
+| Rolle (schnell nach vorn) | **Shift** | B |
+| Werkzeug | automatisch beim Dagegenlaufen (Baum, Fels, Tier) | – |
+| Zug sofort losschicken | Enter | Y |
+| Schnellspeichern / Anleitung / Pause | F5 / F1 / Esc | – / Select / Start |
 
-## Steuerung
+Alle Tasten lassen sich unter *Einstellungen → Tastenbelegung ändern* umlegen.
 
-| Aktion | Taste |
-|---|---|
-| Laufen | WASD / Pfeiltasten |
-| Aufheben · Ablegen · Einladen · Gleis legen · Brücke bauen | Leertaste |
-| Rolle (auch: Glücksrad drehen) | Shift |
-| Im Bahnhof: Waggon nehmen / einreihen / abstellen | Leertaste |
-| Im Bahnhof: Waggon ausbauen | E |
-| Zug sofort starten | Enter |
-| Anleitung im Spiel | F1 |
+---
 
-Gemacht mit Godot 4.
+## Mit Freunden online spielen
+
+Godot braucht niemand – nur das fertige Spiel:
+
+1. **Spiel weitergeben:** die ZIP-Datei für das jeweilige System schicken (Windows: `Gleisfieber-Windows.zip`, Mac: `Gleisfieber-macOS.zip`), z. B. per WeTransfer, Google Drive oder USB-Stick. Entpacken, starten – fertig. Alle müssen **dieselbe Version** haben.
+2. **Einer hostet:** Hauptmenü → *Online-Koop* → *Lobby erstellen*. Das Spiel zeigt einen **Code**.
+3. **Die anderen treten bei:** *Online-Koop* → *Lobby beitreten* → Code eingeben.
+4. **Im selben WLAN** klappt das sofort (die Lobby erscheint sogar automatisch in der Liste).
+5. **Über das Internet** muss der Router des Hosts Verbindungen durchlassen:
+   - Das Spiel versucht es automatisch (UPnP). FRITZ!Box: *Internet → Freigaben → Portfreigaben → Gerät auswählen → „Selbstständige Portfreigaben für dieses Gerät erlauben“*.
+   - Klappt das nicht: Portfreigabe **UDP 24570** auf den Rechner des Hosts einrichten.
+   - Ohne Router-Basteln: alle installieren das kostenlose **Tailscale** (oder ZeroTier), melden sich im selben Netz an und nutzen den Heimnetz-Code – das verhält sich wie ein gemeinsames WLAN.
+
+Beim ersten Start fragen Windows bzw. macOS, ob das Spiel Verbindungen annehmen darf – bitte **Erlauben**.
+
+---
+
+## Was neu ist in 0.8.0
+
+- **Automatische Updates:** Das Spiel schaut beim Start auf GitHub nach einer neuen Version, lädt sie im Hintergrund (wenige MB) und benutzt sie nach einem Neustart. Neu herunterladen muss man ab 0.8 nur noch bei einem Engine-Wechsel.
+- **Online-Spielstände:** Der Host speichert im Pausenmenü auf einem Online-Platz (oder F5); am Bahnhof automatisch. Später in der Lobby **„Spielstand laden …“** – Mitspieler werden am Namen wiedererkannt und bekommen Platz und Werkzeug zurück.
+- **Jederzeit beitreten:** Der Beitritts-Code steht im Spiel klein oben rechts (und im Esc-Menü zum Kopieren).
+- **2 Gleise Puffer** vor der Lok beim Levelstart.
+- **Löschen und Einladen von allen Seiten** – auch vor der Lok und hinter dem letzten Waggon, Löschen auch schräg.
+- **Figurenauswahl** als eigenes Fenster mit allen Figuren in 3D.
+- **Vulkan:** zusätzlicher Teich direkt am Vulkan.
+- **Steuerung:** schnelleres Anlaufen/Abbremsen, Figur rutscht an Baum- und Felsecken vorbei, ruckelfreie Darstellung auf 120/144-Hz-Bildschirmen. Tiere sperren einen nicht mehr ein – man läuft durch sie hindurch.
+
+---
+
+## Was neu war in 0.7.0
+
+- **Vulkan ab Level 4:** großer, fester Vulkankegel; er spuckt alle paar Sekunden Lavabrocken, die zu festen Magmablöcken werden (nie direkt vors Gleis, der Weg bleibt immer offen).
+- **Mehr Action:** freie Lichtungen auf jeder Karte, dort warten die Gegner. Wildschweine schon ab Level 3, **Spinnen** mit Netzen (2,5 s gefesselt), Waschbär-Diebe ab Level 6, schmale Bäche (1 Holz für die Brücke).
+- **Explosionen** betäuben 5 Sekunden. **Eimer** füllt sich in 1,8 s.
+- **Waggons:** höchstens 5 am Zug, teurer (auch die Ausbaustufen). Im Bahnhof mit der Leertaste **aufnehmen, tragen und an beliebiger Stelle einreihen** oder aufs **Abstellgleis** stellen; **E** baut aus.
+- **Genau am Waggon:** Einladen nur am Materialwaggon, Interaktion nur mit dem Waggon, an dem man steht. **Glücksrad nur per Rolle (Shift)**. Über der Werkstatt dreht sich ein **Zahnrad mit Ladebalken**.
+- **Tempo:** Der Zug wird jedes Level schneller (allein wie im Team), mit mehr Spielern etwas mehr.
+- **Schwierigkeitsgrad** (Leicht / Mittel / Schwer) im Depot.
+- **Sechs Spielfiguren** zur Auswahl im Hauptmenü.
+- **Konto:** registrieren / anmelden mit E-Mail und Passwort, Spielstände und Rekorde werden online gesichert (auch nachträglich).
+- **Replay** zeigt alle Level der Fahrt hintereinander.
+- **Start:** Axt und Spitzhacke liegen direkt vor der Lok, der Startplatz ist kleiner und liegt jedes Mal woanders. **Zaun** rund um die Spielfläche.
+- **Anzeige:** Fortschrittsleiste oben kleiner und durchsichtig (fast unsichtbar, wenn man oben am Rand ist); einzelne Anzeigen in den Einstellungen ausblendbar.
+- Kurze **Ladebildschirme** auch vor dem Bahnhof und dem Depot. Karteneditor entfernt.
+
+---
+
+## Was neu war in 0.6.0
+
+- **Brücken:** Holz in der Hand, vor ein Wasserfeld stellen, Leertaste – aus 1 Holz wird aufgeschüttete Wiese. Darauf kann man laufen und Gleise bauen. Über Lava geht das mit Stein. Der kleine Teich am Start bleibt (zum Löschen).
+- **Fluss quer über die Karte:** auf der schweren Route immer, sonst ab Level 7 jedes zweite Level – ohne Brücke kommt der Zug nicht zum Bahnhof. Im Vulkan ist es ein Lavastrom.
+- **Neue Gegner:** Wildschweine (ab Level 5) scharren mit den Hufen und rennen euch um. Waschbär-Diebe (ab Level 7) klauen Holz und Stein aus dem Materialwaggon – ein Treffer, und die Beute fällt herunter.
+- **Steinschlag** (Canyon und später): Schatten am Boden, dann schlagen Felsbrocken ein. Werkzeuge werden nie eingemauert.
+- **Mitnahme:** Alles, was am Ende neben dem Zug oder am Bahnhof liegt (Holz, Stein, Gleise, Werkzeuge, Dynamit), und was ihr tragt, liegt im nächsten Level direkt neben dem Zug und ist benutzbar. Meldung „Mitgenommen …“ im Bahnhof und „Mitgebracht …“ beim Levelstart.
+- Meldungen brechen jetzt sauber um; der Ladebildschirm listet alle Gemeinheiten des nächsten Levels.
+
+---
+
+## Was neu war in 0.5.0
+
+- **Gleise nur unter der Figur:** Gelegt wird genau auf dem Feld, auf dem man steht (grüne/rote Vorschau). Bis zu **8 Gleise** lassen sich stapeln – der Stapel in der Hand und am Boden zeigt, wie viele es ungefähr sind.
+- **Holz und Stein stapeln sich sauber übereinander** (Zahl über Stapeln ab 2).
+- **20 Sekunden** bis zur Abfahrt, **20 Sekunden** Brennzeit, bevor die Runde verloren ist.
+- **9 Levels, 8 Biome**, jedes mit einer neuen Gemeinheit: Wiese → Canyon → Sumpf (*Matsch bremst*) → Schnee (*Eis, man rutscht*) → Nacht (*dunkel, Lichtkreise, leuchtender Zug*) → Wüste (*Sandsturm schiebt*) → Vulkan (*Lava, Lok heizt schneller*) → Labyrinth (*Berge überall, dunkel*). Danach mischen sich die Gemeinheiten.
+- **Berge und Hindernisse senken sich**, wenn eine Figur dahinter steht – durchlaufen kann man trotzdem nicht.
+- **Kamera:** ganze Insel samt unterem Rand sichtbar; mit mehreren Spielern zoomt sie heraus, damit alle im Bild bleiben.
+- **Kartuschen** (wie in Unrailed 2) im Bahnhof: Flinke Schuhe, Große Taschen, Kühler Kopf, Scharfe Klingen, Turbo-Werkstatt, Schraubenfinder – bis zu 3 gleichzeitig.
+- **Musik passt sich an:** eigener Stil je Biom, ruhig beim Bauen, treibend während der Fahrt, hektisch bei Gefahr (Feuer, Hitze, Gleisende nah).
+- **Ladebildschirm** mit Zug, der über eine kleine Insel fährt, und dem Hinweis, was im nächsten Level neu ist.
+- **Wetter & Licht:** Schnee, Glühwürmchen, Funken am Vulkan, Sandsturm mit Nebel.
+
+---
+
+## Was neu war in 0.4.0
+
+- **Steuerung:** Leertaste hebt auf, legt ab, lädt ein, nimmt Gleise, baut und benutzt Waggons; Shift rollt. Aufheben geht nur auf dem Feld, auf dem die Figur steht. Einladen und Gleise nehmen nur per Taste (nicht mehr beim bloßen Berühren).
+- **Gleise haben Vorrang:** Liegt Holz, Stein oder ein Werkzeug auf dem Bauplatz, rutscht es ein Feld zur Seite.
+- **60 Sekunden** bis zur Abfahrt in Level 1 (später 54 s) – 30 s mehr als vorher.
+- **Eine einzige Schraube pro Level**, ganz am Rand der Insel, dick eingepackt in Felsen und Bäume.
+- **Glücksrad:** per Leertaste oder Rolle; Gewinne landen zwei Felder neben dem Zug mit „+3 Holz“-Anzeige und Meldung.
+- **Neue Waggons** (nach dem Vorbild Unrailed 2): Sammelwaggon, Umwandler, Bremswaggon (ab Level 3), Geisterwaggon, Dynamitwaggon (ab Level 4), Bergbauwaggon (ab Level 5). Im Bahnhof höchstens vier Angebote.
+- **Tastenbelegung** in den Einstellungen änderbar.
+
+---
+
+## Was in 0.3.0 dazukam
+
+- **Levelkette:** Ein Level ist geschafft, sobald die letzte Schiene den Bahnhof berührt – dann rollt der Zug zügig hinein. Danach geht es in einen **begehbaren Bahnhof** mit Waggon-Podesten, Ausbau neben jedem Waggon, Wegweisern für die Route (normal / schwer mit mehr Schrauben) und dem Abfahrtssignal. Das nächste Level startet an genau diesem Bahnhof; Material, das in seiner Nähe liegt, und die Ladung im Zug kommen mit.
+- **Einzelspieler startet im Depot** mit Zug und Levelauswahl (freigeschaltete Levels).
+- **Jedes Level schneller und härter:** längere Strecken, mehr Tiere, Biome Wiese und Canyon im Wechsel.
+- **Karte wie auf dem Referenzbild:** schwebende Insel, kleinere Felder, größere Karte, geschlossene Wald- und Felscluster, kantige Berge und Flüsse als feste Hindernisse.
+- **Rolle** mit der Leertaste, Aufheben jetzt mit **E**.
+- **Eimer:** am Wasser 3 Sekunden füllen, nur direkt am Zug mit E leeren. Bei 100 % Hitze brennt die Lok **12 Sekunden**, dann ist die Runde verloren.
+- **Keine vorgebauten Gleise:** Werkstatt leer, vor der Lok liegt nur das Gleis, auf dem sie steht.
+- **Materialwaggon** fasst am Anfang je 5 Holz und 5 Stein (+3 pro Ausbaustufe).
+- **Glücksrad-Waggon** (Unrailed-2-„Slot Machine“): reinrollen → Rad dreht sich → nichts, Rohstoffe, fertige Gleise oder eine Explosion, die kurz betäubt. Bessere Chancen mit höherer Stufe und höherem Level.
+- **Schätze:** goldene Schrauben liegen versteckt in den Clustern.
+- **Tiere** (Schafe, Ziegen) laufen herum, blockieren Weg und Gleisbau, brauchen viele Schläge und lassen selten etwas fallen.
+- **Ausbaukosten wie in Unrailed 2:** 3 / 4 / 6 / 12 Schrauben.
+- **Speichern & Laden** (3 Plätze + Autosave am Bahnhof), **Statistik & Rekorde**, **Replay im Zeitraffer** nach einer Niederlage (2×–16×).
+- **Zugtempo** automatisch nach Spielerzahl (allein langsamer) oder manuell.
+
+---
+
+## Projektstruktur
+
+```
+project.godot            Godot 4.7, Forward+ mit OpenGL-Rückfall; Autoloads Settings, InputSetup, Sfx, Music, Saves, Cloud, Net
+scenes/                  main_menu.tscn, lobby.tscn, game.tscn (Aufbau im Code)
+scripts/
+  sim/                   Spiellogik – rein, headless testbar, netzwerkneutral
+    gc.gd                Konstanten und Regeln
+    run_data.gd          Fortschritt: Waggons, Stufen, Kosten, Biome, Routen, Glücksrad
+    world_generator.gd   Seed-basierte Welten mit Clustern, Bergen, Flüssen, Schätzen, Tieren
+    track_network.gd     Gleiskette, Platzierungsregeln, Kurven, Bahnhofsanschluss
+    train_sim.gd         Zug, Tempo, Hitze, Brennen, Entgleisung, Einfahrt
+    game_state.gd        Autoritativer Zustand: Aktion → Prüfung → Ereignisse (Level und Bahnhof)
+    replay_recorder.gd   Aufzeichnung für das Zeitraffer-Replay
+  net/                   Net (ENet-Host/Client, Lobby, Codes, LAN-Suche, UPnP), Lobby-Codes
+  view/                  Insel, Gleise, Zug, Figuren, Tiere, Bahnhof, Effekte
+  game/                  Spielszene, Steuerung, Kamera, Replay-Abspieler
+  ui/                    Hauptmenü, Lobby, HUD, Anleitung, Einstellungen
+  autoload/              Einstellungen, Tastenbelegung, Klangerzeugung, Spielstände
+tests/
+  run_tests.gd           685 Logikprüfungen (headless)
+  playtest_driver.gd     Spieltest-Bot: steuert die echte Szene über simulierte Tastendrücke
+tools/
+  render_shot.sh         Bildschirmfotos ohne Grafikkarte
+  net_test.sh            Online-Test mit 2–4 echten Prozessen (optional mit Latenz)
+  net_test_drop.sh       Online-Test mit Verbindungsabbruch und Nachzügler
+docs/TESTBERICHT.md      Ehrlicher Testbericht
+```
+
+## Architektur in Kürze
+
+Alles, was über den Spielausgang entscheidet, liegt in `scripts/sim/` und ist frei von Szenen-Knoten. Jede Handlung läuft – auch im Einzelspieler – über denselben Weg:
+
+```
+Eingabe → Net.submit(Aktion) → Host: GameState.handle_action() prüft gegen den echten Zustand
+       → Ereignisse (absolute Werte, idempotent) → apply_event() bei Host und allen Clients → Views
+```
+
+Online ist der Host autoritativ (ENet, UDP 24570). Ereignisse werden mit 20 Hz gebündelt; beim Beitreten, Levelwechsel und Bahnhof gibt es einen vollständigen Schnappschuss. Am Ende jedes Online-Tests vergleichen alle Teilnehmer eine Prüfsumme über den Zustand.
+
+## Tests ausführen
+
+```bash
+godot --headless --path . --script res://tests/run_tests.gd                          # 685 Logikprüfungen
+godot --headless --fixed-fps 60 --path . res://scenes/game.tscn -- --playtest          # 3 Gleise
+godot --headless --fixed-fps 60 --path . res://scenes/game.tscn -- --playtest --levels=3   # 3 Level inkl. Bahnhof
+godot --headless --fixed-fps 60 --path . res://scenes/game.tscn -- --playtest --race       # Wettlauf gegen den fahrenden Zug
+tools/net_test.sh 3 15            # 3 Spieler online, 15 Gleise im Team
+tools/net_test.sh 2 12 150        # mit 150 ms künstlicher Latenz
+tools/net_test_drop.sh            # Abbruch und Wiedereinstieg
+```

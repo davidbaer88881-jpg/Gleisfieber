@@ -11,13 +11,17 @@ Godot oder andere Programme braucht niemand – nur die passende Datei:
 | **Windows** | [⬇️ Gleisfieber-Windows.zip](https://github.com/davidbaer88881-jpg/Gleisfieber/raw/main/download/Gleisfieber-Windows.zip) (43 MB) |
 | **Mac** (Apple Silicon und Intel) | [⬇️ Gleisfieber-macOS.zip](https://github.com/davidbaer88881-jpg/Gleisfieber/raw/main/download/Gleisfieber-macOS.zip) (66 MB) |
 
-Aktuelle Version: **0.6.0** – die ausführliche Spielanleitung steht in [ANLEITUNG.md](ANLEITUNG.md) und im Spiel unter F1.
+Aktuelle Version: **0.7.0** – die ausführliche Spielanleitung steht in [ANLEITUNG.md](ANLEITUNG.md) und im Spiel unter F1.
 
 1. Datei für dein System über den Link oben herunterladen.
 2. Entpacken.
 3. Starten:
    - **Windows:** `Gleisfieber.exe` doppelklicken. Falls „Der Computer wurde durch Windows geschützt“ erscheint: **Weitere Informationen → Trotzdem ausführen** (das Spiel ist nicht signiert).
    - **Mac:** Beim ersten Start **Rechtsklick auf Gleisfieber → Öffnen → Öffnen** (nicht notariert).
+
+## Konto
+
+Im Hauptmenü unter **Konto** kannst du dich mit E-Mail und Passwort registrieren oder anmelden. Dann werden Spielstände und Rekorde online gesichert – sie bleiben erhalten, auch wenn du das Spiel löschst. Wer schon gespielt hat, meldet sich einfach an; der bisherige Fortschritt wird übernommen.
 
 ## Zusammen online spielen
 
@@ -33,7 +37,9 @@ Aktuelle Version: **0.6.0** – die ausführliche Spielanleitung steht in [ANLEI
 |---|---|
 | Laufen | WASD / Pfeiltasten |
 | Aufheben · Ablegen · Einladen · Gleis legen · Brücke bauen | Leertaste |
-| Rolle | Shift |
+| Rolle (auch: Glücksrad drehen) | Shift |
+| Im Bahnhof: Waggon nehmen / einreihen / abstellen | Leertaste |
+| Im Bahnhof: Waggon ausbauen | E |
 | Zug sofort starten | Enter |
 | Anleitung im Spiel | F1 |
 

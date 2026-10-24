@@ -1,6 +1,13 @@
 {
- "version": "0.8.0",
- "notes": "Grundversion mit Updater",
+ "version": "0.9.0",
+ "notes": "20 Level mit Finale am Endbahnhof, Zugdesigns, Nacht-Zyklus, Maulwürfe, Bremsschienen, Schafe wegtreten, Hupe, Zoom",
  "min_base": "0.8.0",
- "pck": {}
+ "pck": {
+  "windows": "Gleisfieber-0.9.0-windows.pck",
+  "macos": "Gleisfieber-0.9.0-macos.pck"
+ },
+ "sha256": {
+  "windows": "7815c0efe3d10989e68314d50b73e4463cf4eb5d3895bfbf72eb9c9601e0bf7b",
+  "macos": "7815c0efe3d10989e68314d50b73e4463cf4eb5d3895bfbf72eb9c9601e0bf7b"
+ }
 }

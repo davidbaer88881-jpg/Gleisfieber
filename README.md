@@ -4,7 +4,7 @@ Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder
 
 Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-**Stand: Version 0.8.0** – automatische Updates, Online-Spielstände, jederzeit per Code beitreten, 2 Gleise Puffer beim Start, Löschen und Einladen von allen Seiten, Figurenauswahl-Fenster, Teich am Vulkan, flüssigere Steuerung.
+**Stand: Version 0.9.0** – 20 Level mit großem Finale am Endbahnhof, Zugdesigns, Nacht-Zyklus, Maulwürfe, Bremsschienen, Schafe wegtreten, Hupe und Rufe, Zoom und eigene Kamera, aufgeräumter Code.
 
 Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 
@@ -29,6 +29,8 @@ Projekt im Editor: **Godot 4.7.2** (Standard, nicht .NET) → *Importieren* → 
 | Rolle (schnell nach vorn) | **Shift** | B |
 | Werkzeug | automatisch beim Dagegenlaufen (Baum, Fels, Tier) | – |
 | Zug sofort losschicken | Enter | Y |
+| Zoom / Hupe / Rufe | Q / T / 1–4 | RB / LB / – |
+| Schaf wegtreten | Leertaste | A |
 | Schnellspeichern / Anleitung / Pause | F5 / F1 / Esc | – / Select / Start |
 
 Alle Tasten lassen sich unter *Einstellungen → Tastenbelegung ändern* umlegen.
@@ -52,7 +54,25 @@ Beim ersten Start fragen Windows bzw. macOS, ob das Spiel Verbindungen annehmen 
 
 ---
 
-## Was neu ist in 0.8.0
+## Was neu ist in 0.9.0
+
+- **20 Level, immer der Reihe nach:** Jede Fahrt beginnt bei Level 1. Am Bahnhof gibt es den normalen oder den schweren Weg zum nächsten Level.
+- **Finale in Level 20:** längste Strecke, alle Gefahren auf einmal, Lichtstrahl über dem **Endbahnhof**, **Endspurt** kurz vor dem Ziel, großes **Feuerwerk**, Siegerbildschirm, goldener Zug und danach auf Wunsch **Endlos-Modus**.
+- **Zugdesigns:** alle 3 geschafften Level ein neues, auswählbar in der **Lackiererei** (Depot und Bahnhöfe).
+- **Nacht:** jede Minute 30 Sekunden stockdunkel, nur ~5 Felder Sicht, der Zug leuchtet.
+- **Maulwürfe** (über Level 10) buddeln Hügel auf das 5. vorgebaute Gleis – mit der Spitzhacke weg, sonst entgleist der Zug.
+- **Bremsschienen** (sehr selten): 3 Stück, darauf fährt der Zug langsamer.
+- **Tiere** halten einen wieder auf (mit der Rolle kommt man vorbei); **Schafe wegtreten** mit der Leertaste, seltenes **goldenes Schaf** mit Schraube.
+- **Hupe** (T) – Schafe erschrecken sich – und **Rufe** (1–4) als Sprechblasen, auch online.
+- **Kamera:** Q zoomt in drei Stufen; Einstellung „Kamera folgt nur mir“ und Kamera-Abstand.
+- **Bahnhof:** farbige **Preisschilder** über jedem Waggon (grün = genug Schrauben).
+- **Konto:** nach dem Anmelden „Los geht’s – jetzt spielen!“.
+- Wasser und Lava liegen nie direkt nebeneinander. Kartusche „Scharfe Klingen“ entfernt (kein schnelleres Abbauen).
+- **Aufgeräumter Code:** Spielregeln in Module aufgeteilt (PlayerActions, WagonSim, Hazards, EnemyAI, HubLogic), Welt-Darstellung (WorldDecor, WorldFx), Menüs (PauseMenu, EndScreen), Netzwerk (NetDiscovery). Ungenutzter Code entfernt, Speicherleck bei der Hitzeanzeige behoben, weniger Arbeit pro Bild. Die Anleitung im Spiel wird direkt aus ANLEITUNG.md erzeugt.
+
+---
+
+## Was neu war in 0.8.0
 
 - **Automatische Updates:** Das Spiel schaut beim Start auf GitHub nach einer neuen Version, lädt sie im Hintergrund (wenige MB) und benutzt sie nach einem Neustart. Neu herunterladen muss man ab 0.8 nur noch bei einem Engine-Wechsel.
 - **Online-Spielstände:** Der Host speichert im Pausenmenü auf einem Online-Platz (oder F5); am Bahnhof automatisch. Später in der Lobby **„Spielstand laden …“** – Mitspieler werden am Namen wiedererkannt und bekommen Platz und Werkzeug zurück.

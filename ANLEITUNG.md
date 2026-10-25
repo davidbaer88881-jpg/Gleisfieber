@@ -1,4 +1,4 @@
-# Gleisfieber – Anleitung (Version 0.10.2)
+# Gleisfieber – Anleitung (Version 0.11.0)
 
 ## Steuerung
 
@@ -77,6 +77,8 @@ Eine Fahrt hat **20 Level** – man fängt immer bei **Level 1** an und arbeitet
 
 **Das Finale (Level 20):** die längste Strecke von allen – Vulkan, Steinschlag, ein Felsgrat mit Tunnel, Dunkelheit, Maulwürfe und alle Gegner auf einmal. Ein goldener **Lichtstrahl** zeigt schon vom Start aus, wo der **Endbahnhof** steht. Kurz davor beginnt der **ENDSPURT**: Der Zug gibt Vollgas! Wer ankommt, wird mit einem großen **Feuerwerk** begrüßt, schaltet den **goldenen Zug** frei – und kann danach im **Endlos-Modus** weiterfahren (Level 21, 22, …).
 
+**Rückblick:** Nach dem Endbahnhof zeigt ein Rückblick lustige Szenen aus euren 20 Leveln, kommentiert vom alten Lokführer, der euch die ganze Zeit heimlich beobachtet hat (Leertaste: weiter, Esc: überspringen).
+
 **Zugdesigns:** Alle **3 geschafften Level** wird ein neues Zugdesign freigeschaltet (Smaragd, Feuerwehr, Mitternacht, Bonbon, Dampf-Bronze, Tarnfarbe – und Gold für den Endbahnhof). Gewählt wird es in der **Lackiererei** im Depot und in jedem Bahnhof.
 **Schwierigkeit:** Im Depot stehen drei Schilder – **Leicht** (langsamer Zug, 30 s bis zur Abfahrt, weniger Gegner), **Mittel** und **Schwer** (schneller, nur 15 s, mehr Gegner, +1 Schraube je Level).
 **Spielfigur:** Im Hauptmenü unter „Spielfigur“ wählst du aus sechs Figuren.
@@ -102,7 +104,7 @@ Im Bahnhof stehen höchstens vier Angebote, die neuesten zuerst.
 
 ## Der Bahnhof zwischen den Levels
 
-Nach jedem Level kommst du in einen Bahnhof, in dem du herumlaufen kannst. Am Zug hängen **höchstens 5 Waggons**. **Leertaste an einem Waggon = in die Hand nehmen** – dann trägst du ihn und reihst ihn mit der Leertaste **an jeder beliebigen Stelle** des Zugs wieder ein, oder stellst ihn aufs **Abstellgleis** (oben links). So tauschst du Waggons aus. **E = Waggon ausbauen** (Stufe 1 → 4), auch auf dem Abstellgleis. Über jedem Waggon steht seine Stufe (grün = Ausbau bezahlbar). Stehst du am Zug, zeigt rechts oben die Übersicht **„Dein Zug“** alle Waggons mit Stufe und Ausbaupreis, und unten erklärt eine **Info-Karte**, was der Stand oder Waggon vor dir kann, was er kostet und welche Taste du drückst. Werkstatt und Materialwaggon müssen zur Abfahrt am Zug hängen. Neue Waggons kaufst du auf den Podesten; ist der Zug voll, kommen sie aufs Abstellgleis. An den Wegweisern wählst du den normalen oder schweren Weg zum nächsten Level, am grünen Signal fährt der Host los.
+Nach jedem Level kommst du in einen Bahnhof, in dem du herumlaufen kannst. Am Zug hängen **höchstens 5 Waggons** – ist die Lok oder sind zwei Waggons auf Stufe 4, passt ein **6. Waggon** dran. Das Abstellgleis hat Platz für 10 Waggons. **Leertaste an einem Waggon = in die Hand nehmen** – dann trägst du ihn und reihst ihn mit der Leertaste **an jeder beliebigen Stelle** des Zugs wieder ein, oder stellst ihn aufs **Abstellgleis** (oben links). So tauschst du Waggons aus. **E = Waggon ausbauen** (Stufe 1 → 4), auch auf dem Abstellgleis. Über jedem Waggon steht seine Stufe (grün = Ausbau bezahlbar). Stehst du am Zug, zeigt rechts oben die Übersicht **„Dein Zug“** alle Waggons mit Stufe und Ausbaupreis, und unten erklärt eine **Info-Karte**, was der Stand oder Waggon vor dir kann, was er kostet und welche Taste du drückst. Werkstatt und Materialwaggon müssen zur Abfahrt am Zug hängen. Neue Waggons kaufst du auf den Podesten; ist der Zug voll, kommen sie aufs Abstellgleis. An den Wegweisern wählst du den normalen oder schweren Weg zum nächsten Level, am grünen Signal fährt der Host los.
 Auch im **Einzelspieler** startest du im Depot: Zug anschauen, Design und Schwierigkeit wählen, los geht’s mit Level 1.
 
 ## Zugtempo

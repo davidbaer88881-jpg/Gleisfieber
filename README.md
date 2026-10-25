@@ -4,7 +4,7 @@ Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder
 
 Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-**Stand: Version 0.10.2** – Tunnel durch Berge (mit durchsichtigem Fels), neues Gebirge-Biom, eine Quest pro Level, Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.
+**Stand: Version 0.11.0** – Tunnel durch Berge (mit durchsichtigem Fels), neues Gebirge-Biom, eine Quest pro Level, Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.
 
 Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 
@@ -55,7 +55,13 @@ Beim ersten Start fragen Windows bzw. macOS, ob das Spiel Verbindungen annehmen 
 
 ---
 
-## Was neu ist in 0.10.2
+## Was neu ist in 0.11.0
+
+- **Rückblick nach Level 20:** Nach dem Endbahnhof kommt ein Rückblick mit echten Szenen aus eurer Fahrt (Schaf im Tiefflug, Lok brennt, Wildschwein, Tunnelbohrer, knapp am Gleisende …). Ein alter Lokführer, der euch heimlich vom Stellwerk aus beobachtet hat, kommentiert mit eigener Stimme, wie ihr euch angestellt habt – die Sprüche richten sich danach, was wirklich passiert ist. Leertaste: weiter, Esc: überspringen; im Siegerbildschirm lässt er sich nochmal ansehen.
+- **6. Waggon:** Ist die Lok oder sind zwei Waggons auf Stufe 4, passt ein 6. Waggon an den Zug.
+- **Längeres Abstellgleis** mit Platz für 10 Waggons.
+
+## Was neu war in 0.10.2
 
 - **Absturz in Level 19 behoben:** Beim Start von Level 19 wurde im Hintergrund schon die Musik für das Finale vorbereitet – die gab es aber nicht, und der Fehler im Hintergrund brachte das Spiel zum Absturz. Jetzt hat das Finale eigene Musik, unbekannte Stimmungen bekommen nie mehr einen Fehler, die Musik wird komplett getrennt vom Spiel erzeugt, und der Ladebildschirm wartet nie ewig auf die Musik.
 - Weitere Admin-Adresse (0.10.1).

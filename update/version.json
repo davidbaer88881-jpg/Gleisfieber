@@ -1,13 +1,13 @@
 {
- "version": "0.10.2",
- "notes": "Absturz beim Start von Level 19 behoben. Mit: Tunnel durch Berge, Gebirge in Level 8 und 15, Quests (+1 Schraube), Admin-Testwelt, neuer Bahnhof.",
+ "version": "0.11.0",
+ "notes": "Rückblick mit dem alten Lokführer nach Level 20, 6. Waggon (Lok oder 2 Waggons auf Stufe 4), Abstellgleis mit 10 Plätzen.",
  "min_base": "0.8.0",
  "pck": {
-  "windows": "Gleisfieber-0.10.2-windows.pck",
-  "macos": "Gleisfieber-0.10.2-macos.pck"
+  "windows": "Gleisfieber-0.11.0-windows.pck",
+  "macos": "Gleisfieber-0.11.0-macos.pck"
  },
  "sha256": {
-  "windows": "2acf14335407404a56f78d63774290b107cf9b36befa2e5792286747a2311b1f",
-  "macos": "2acf14335407404a56f78d63774290b107cf9b36befa2e5792286747a2311b1f"
+  "windows": "bf24d2a72ea4276eae1550d8f933d3cd57e431a92333c8bc09e70ccaf4c0b23b",
+  "macos": "bf24d2a72ea4276eae1550d8f933d3cd57e431a92333c8bc09e70ccaf4c0b23b"
  }
 }

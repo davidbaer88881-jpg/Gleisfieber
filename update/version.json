@@ -1,13 +1,13 @@
 {
- "version": "0.10.1",
- "notes": "Tunnel durch Berge (durchsichtiger Fels), Gebirge in Level 8 und 15, eine Quest pro Level (+1 Schraube), Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.",
+ "version": "0.10.2",
+ "notes": "Absturz beim Start von Level 19 behoben. Mit: Tunnel durch Berge, Gebirge in Level 8 und 15, Quests (+1 Schraube), Admin-Testwelt, neuer Bahnhof.",
  "min_base": "0.8.0",
  "pck": {
-  "windows": "Gleisfieber-0.10.1-windows.pck",
-  "macos": "Gleisfieber-0.10.1-macos.pck"
+  "windows": "Gleisfieber-0.10.2-windows.pck",
+  "macos": "Gleisfieber-0.10.2-macos.pck"
  },
  "sha256": {
-  "windows": "9e9d457206d1d6706b79a2f09ab753e42f22e467a4def4b00153925c59268bd2",
-  "macos": "9e9d457206d1d6706b79a2f09ab753e42f22e467a4def4b00153925c59268bd2"
+  "windows": "2acf14335407404a56f78d63774290b107cf9b36befa2e5792286747a2311b1f",
+  "macos": "2acf14335407404a56f78d63774290b107cf9b36befa2e5792286747a2311b1f"
  }
 }

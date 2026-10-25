@@ -1,4 +1,4 @@
-# Gleisfieber – Anleitung (Version 0.10.1)
+# Gleisfieber – Anleitung (Version 0.10.2)
 
 ## Steuerung
 

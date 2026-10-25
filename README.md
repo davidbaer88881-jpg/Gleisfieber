@@ -4,7 +4,7 @@ Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder
 
 Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-**Stand: Version 0.10.1** – Tunnel durch Berge (mit durchsichtigem Fels), neues Gebirge-Biom, eine Quest pro Level, Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.
+**Stand: Version 0.10.2** – Tunnel durch Berge (mit durchsichtigem Fels), neues Gebirge-Biom, eine Quest pro Level, Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.
 
 Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 
@@ -55,7 +55,12 @@ Beim ersten Start fragen Windows bzw. macOS, ob das Spiel Verbindungen annehmen 
 
 ---
 
-## Was neu ist in 0.10.0
+## Was neu ist in 0.10.2
+
+- **Absturz in Level 19 behoben:** Beim Start von Level 19 wurde im Hintergrund schon die Musik für das Finale vorbereitet – die gab es aber nicht, und der Fehler im Hintergrund brachte das Spiel zum Absturz. Jetzt hat das Finale eigene Musik, unbekannte Stimmungen bekommen nie mehr einen Fehler, die Musik wird komplett getrennt vom Spiel erzeugt, und der Ladebildschirm wartet nie ewig auf die Musik.
+- Weitere Admin-Adresse (0.10.1).
+
+## Was neu war in 0.10.0
 
 - **Tunnel:** Mit einem Gleis in der Hand am Streckenende auf einen Berg zeigen und Leertaste drücken – jedes Tunnelfeld kostet das Gleis + 2 Holz aus dem Materialwaggon, höchstens 4 Felder am Stück. Der Fels über dem Tunnel wird **durchsichtig** (man sieht den Zug darin), innen Stützbalken mit Laternen, an den Öffnungen gemauerte Portale, beim Bohren fliegen Brocken. Durch den Tunnel kann man laufen – außer wenn der Zug drin ist.
 - **Neues Biom „Gebirge“** in Level 8 und 15: Ein Bergkamm sperrt die ganze Karte, ein Tunnel ist Pflicht. Im Finale gibt es einen schmalen Felsgrat. In den anderen Leveln ist ein Tunnel eine Abkürzung durch normale Berge (nicht durch den Vulkan).

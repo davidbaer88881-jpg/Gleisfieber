@@ -1,4 +1,4 @@
-# Gleisfieber – Anleitung (Version 0.9.0)
+# Gleisfieber – Anleitung (Version 0.9.1)
 
 ## Steuerung
 
@@ -66,7 +66,7 @@ Stell dich mit **Holz in der Hand** vor ein Wasserfeld und drück die **Leertast
 
 ## Die Level
 
-Eine Fahrt hat **20 Level** – man fängt immer bei **Level 1** an und arbeitet sich hoch: **1–2 Wiese** · **3 Canyon** (Steinschlag, Wildschweine) · **4 Vulkan** (Lava, Ausbruch, Hitze) · **5 Sumpf** (Matsch, Spinnen, Bach) · **6 Schneefeld** (Eis, Diebe) · **7 Nachtwiese** (Dunkelheit, Fluss) · **8 Wüste** (Sandsturm) · **9 Felslabyrinth** · **10 Wiese** · **11 Canyon** · **12 Nacht** · **13 Vulkan** · **14 Sumpf** · **15 Schnee** · **16 Wüste** · **17 Nacht** · **18 Labyrinth** · **19 Vulkan** · **20 FINALE**. Der Zug wird **jedes Level schneller**, mit mehr Spielern noch etwas mehr. Am Bahnhof wählst du für das nächste Level den **normalen** oder den **schweren** Weg (Fluss, mehr Gegner, +2 Schrauben).
+Eine Fahrt hat **20 Level** – man fängt immer bei **Level 1** an und arbeitet sich hoch: **1–2 Wiese** · **3 Canyon** (Steinschlag, Wildschweine) · **4 Vulkan** (Lava, Ausbruch, Hitze) · **5 Sumpf** (Matsch, Spinnen, Bach) · **6 Schneefeld** (Eis, Diebe) · **7 Nachtwiese** (Dunkelheit, Fluss) · **8 Wüste** (Sandsturm) · **9 Felslabyrinth** · **10 Wiese** · **11 Canyon** · **12 Nacht** · **13 Vulkan** · **14 Sumpf** · **15 Schnee** · **16 Wüste** · **17 Nacht** · **18 Labyrinth** · **19 Vulkan** · **20 FINALE**. Der Zug wird **jedes Level deutlich schneller** (+12 % je Level, auf jeder Schwierigkeit – in Level 10 ist er schon gut doppelt so schnell wie in Level 1), mit mehr Spielern noch etwas mehr. Am Bahnhof wählst du für das nächste Level den **normalen** oder den **schweren** Weg (Fluss, mehr Gegner, +2 Schrauben).
 
 **Das Finale (Level 20):** die längste Strecke von allen – Vulkan, Steinschlag, Dunkelheit, Maulwürfe und alle Gegner auf einmal. Ein goldener **Lichtstrahl** zeigt schon vom Start aus, wo der **Endbahnhof** steht. Kurz davor beginnt der **ENDSPURT**: Der Zug gibt Vollgas! Wer ankommt, wird mit einem großen **Feuerwerk** begrüßt, schaltet den **goldenen Zug** frei – und kann danach im **Endlos-Modus** weiterfahren (Level 21, 22, …).
 

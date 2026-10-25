@@ -4,7 +4,7 @@ Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder
 
 Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-**Stand: Version 0.9.0** – 20 Level mit großem Finale am Endbahnhof, Zugdesigns, Nacht-Zyklus, Maulwürfe, Bremsschienen, Schafe wegtreten, Hupe und Rufe, Zoom und eigene Kamera, aufgeräumter Code.
+**Stand: Version 0.9.1** – 20 Level mit großem Finale am Endbahnhof, Zugdesigns, Nacht-Zyklus, Maulwürfe, Bremsschienen, Schafe wegtreten, Hupe und Rufe, Zoom und eigene Kamera, aufgeräumter Code.
 
 Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 
@@ -54,7 +54,11 @@ Beim ersten Start fragen Windows bzw. macOS, ob das Spiel Verbindungen annehmen 
 
 ---
 
-## Was neu ist in 0.9.0
+## Was neu ist in 0.9.1
+
+- Der Zug wird **jedes Level deutlich schneller** (+12 % statt +7 % je Level, auf allen Schwierigkeiten). Die Lok heizt dabei nicht schneller auf als bisher.
+
+## Was neu war in 0.9.0
 
 - **20 Level, immer der Reihe nach:** Jede Fahrt beginnt bei Level 1. Am Bahnhof gibt es den normalen oder den schweren Weg zum nächsten Level.
 - **Finale in Level 20:** längste Strecke, alle Gefahren auf einmal, Lichtstrahl über dem **Endbahnhof**, **Endspurt** kurz vor dem Ziel, großes **Feuerwerk**, Siegerbildschirm, goldener Zug und danach auf Wunsch **Endlos-Modus**.

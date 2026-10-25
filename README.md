@@ -4,7 +4,7 @@ Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder
 
 Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-**Stand: Version 0.10.0** – Tunnel durch Berge (mit durchsichtigem Fels), neues Gebirge-Biom, eine Quest pro Level, Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.
+**Stand: Version 0.10.1** – Tunnel durch Berge (mit durchsichtigem Fels), neues Gebirge-Biom, eine Quest pro Level, Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.
 
 Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 

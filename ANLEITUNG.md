@@ -1,4 +1,4 @@
-# Gleisfieber – Anleitung (Version 0.9.1)
+# Gleisfieber – Anleitung (Version 0.10.0)
 
 ## Steuerung
 
@@ -13,6 +13,7 @@
 | Bahnhof: Waggon ausbauen | E | X |
 | Lok löschen | Leertaste mit vollem Eimer am Zug – von jeder Seite, auch vorne und hinten | A |
 | Brücke bauen | Holz in der Hand, vor dem Wasser stehen, Leertaste (über Lava: Stein) | A |
+| Tunnel bohren | Gleis in der Hand, am Streckenende vor dem Berg stehen, Leertaste (+2 Holz aus dem Materialwaggon) | A |
 | Rolle (schneller nach vorne – auch an Tieren vorbei) | Shift | B |
 | Schaf wegtreten | Leertaste – vor dem Schaf stehen (Ziegen und Gegner nicht) | A |
 | Kamera näher / weiter weg | Q (drei Stufen) | RB |
@@ -30,7 +31,7 @@ Alle Tasten lassen sich unter *Einstellungen → Tastenbelegung ändern* umlegen
 
 ## So läuft ein Level
 
-**1. Durchhacken.** Holz und Stein liegen in dichten Wäldern und Felsfeldern, die den Weg zum Bahnhof versperren. Axt: gegen einen Baum laufen → **Holz**. Spitzhacke: gegen einen Fels mit rostbraunen Erzadern laufen → **Stein**. Kantige Berge sind fest – um sie herum musst du bauen. Über Wasser baust du **Brücken** (siehe unten).
+**1. Durchhacken.** Holz und Stein liegen in dichten Wäldern und Felsfeldern, die den Weg zum Bahnhof versperren. Axt: gegen einen Baum laufen → **Holz**. Spitzhacke: gegen einen Fels mit rostbraunen Erzadern laufen → **Stein**. Kantige Berge sind fest – um sie herum musst du bauen, oder du bohrst einen **Tunnel** (siehe unten). Über Wasser baust du **Brücken** (siehe unten).
 
 **2. Bis zu 3 Stück tragen.** Stell dich **genau auf** einen Gegenstand und drück die Leertaste – dann hast du ihn in der Hand. Trägst du schon Holz oder Stein, sammeln sich gleiche Stücke beim Drüberlaufen **von selbst** dazu – bis du 3 trägst. Leertaste auf einem freien Feld legt alles auf **einen Haufen** unter dir ab. Mit Werkzeug in der Hand auf einem Haufen Leertaste drücken = Tauschen.
 
@@ -47,6 +48,12 @@ Alle Tasten lassen sich unter *Einstellungen → Tastenbelegung ändern* umlegen
 **8. Tiere.** Schafe und Ziegen laufen herum und stehen auch mal im Weg – durch sie kann man nicht hindurchlaufen (mit der **Rolle** kommt man vorbei). **Schafe** trittst du mit der **Leertaste** einfach weg, Ziegen musst du mit Axt oder Spitzhacke vertreiben (viele Schläge). Ganz selten läuft ein **goldenes Schaf** herum: Tritt es, dann verliert es eine Schraube! Und wer **hupt** (T), lässt Schafe und Ziegen in der Nähe erschrocken davonhüpfen.
 
 **9. Mitnehmen.** Alles, was am Ende **neben dem Zug** oder nahe am Zielbahnhof liegt – Holz, Stein, Gleise, Axt, Spitzhacke, Eimer, Dynamit – und was ihr in der Hand haltet, kommt ins nächste Level mit. Dort liegt es **direkt neben dem Zug** bereit und lässt sich ganz normal benutzen. Mitgebrachte Werkzeuge ersetzen die Grundausstattung. Die Ladung im Zug bleibt ohnehin erhalten.
+
+**10. Quest.** Jedes Level hat eine zufällige **Quest** – sie steht oben links unter den Schrauben. Geschafft = **+1 Schraube**. Manche zählen hoch (z. B. „Tritt 12 Schafe weg“, „Staple 9 Holz oder Stein auf einen Haufen“, „Baue 16 Gleise am Stück geradeaus“, „Baue 10 Kurven ein“, „Lass die Lok 10 s brennen – erst dann löschen“), manche verbieten etwas bis zur Ankunft (z. B. „ohne ein einziges Mal zu rollen“, „ohne ein Tier zu schlagen“, „ohne dass die Lok brennt“). Verpatzt ist verpatzt – im nächsten Level gibt es eine neue.
+
+## Tunnel
+
+Durch einen festen Berg kommt das Gleis mit einem **Tunnel**: Stell dich mit einem **Gleis in der Hand** ans Streckenende, schau auf den Berg und drück die **Leertaste**. Jedes Tunnelfeld kostet **das Gleis + 2 Holz aus dem Materialwaggon** (für die Stützbalken). Ein Tunnel darf höchstens **4 Felder** am Stück lang sein, und durch den Vulkan geht es nicht. Der Fels über dem Tunnel wird **durchsichtig** – so siehst du den Zug darin fahren. Zu Fuß kannst du durch den Tunnel laufen, nur nicht, solange der Zug drin ist. Im **Gebirge (Level 8 und 15)** sperrt ein Bergkamm die ganze Karte – da **muss** ein Tunnel her, im Finale ein schmaler Felsgrat. In den anderen Leveln ist ein Tunnel eine Abkürzung.
 
 ## Brücken
 
@@ -66,9 +73,9 @@ Stell dich mit **Holz in der Hand** vor ein Wasserfeld und drück die **Leertast
 
 ## Die Level
 
-Eine Fahrt hat **20 Level** – man fängt immer bei **Level 1** an und arbeitet sich hoch: **1–2 Wiese** · **3 Canyon** (Steinschlag, Wildschweine) · **4 Vulkan** (Lava, Ausbruch, Hitze) · **5 Sumpf** (Matsch, Spinnen, Bach) · **6 Schneefeld** (Eis, Diebe) · **7 Nachtwiese** (Dunkelheit, Fluss) · **8 Wüste** (Sandsturm) · **9 Felslabyrinth** · **10 Wiese** · **11 Canyon** · **12 Nacht** · **13 Vulkan** · **14 Sumpf** · **15 Schnee** · **16 Wüste** · **17 Nacht** · **18 Labyrinth** · **19 Vulkan** · **20 FINALE**. Der Zug wird **jedes Level deutlich schneller** (+12 % je Level, auf jeder Schwierigkeit – in Level 10 ist er schon gut doppelt so schnell wie in Level 1), mit mehr Spielern noch etwas mehr. Am Bahnhof wählst du für das nächste Level den **normalen** oder den **schweren** Weg (Fluss, mehr Gegner, +2 Schrauben).
+Eine Fahrt hat **20 Level** – man fängt immer bei **Level 1** an und arbeitet sich hoch: **1–2 Wiese** · **3 Canyon** (Steinschlag, Wildschweine) · **4 Vulkan** (Lava, Ausbruch, Hitze) · **5 Sumpf** (Matsch, Spinnen, Bach) · **6 Schneefeld** (Eis, Diebe) · **7 Nachtwiese** (Dunkelheit, Fluss) · **8 Gebirge** (Pflicht-Tunnel) · **9 Felslabyrinth** · **10 Wiese** · **11 Canyon** · **12 Nacht** · **13 Vulkan** · **14 Sumpf** · **15 Gebirge** · **16 Wüste** (Sandsturm) · **17 Nacht** · **18 Labyrinth** · **19 Vulkan** · **20 FINALE**. Der Zug wird **jedes Level deutlich schneller** (+12 % je Level, auf jeder Schwierigkeit – in Level 10 ist er schon gut doppelt so schnell wie in Level 1), mit mehr Spielern noch etwas mehr. Am Bahnhof wählst du für das nächste Level den **normalen** oder den **schweren** Weg (Fluss, mehr Gegner, +2 Schrauben).
 
-**Das Finale (Level 20):** die längste Strecke von allen – Vulkan, Steinschlag, Dunkelheit, Maulwürfe und alle Gegner auf einmal. Ein goldener **Lichtstrahl** zeigt schon vom Start aus, wo der **Endbahnhof** steht. Kurz davor beginnt der **ENDSPURT**: Der Zug gibt Vollgas! Wer ankommt, wird mit einem großen **Feuerwerk** begrüßt, schaltet den **goldenen Zug** frei – und kann danach im **Endlos-Modus** weiterfahren (Level 21, 22, …).
+**Das Finale (Level 20):** die längste Strecke von allen – Vulkan, Steinschlag, ein Felsgrat mit Tunnel, Dunkelheit, Maulwürfe und alle Gegner auf einmal. Ein goldener **Lichtstrahl** zeigt schon vom Start aus, wo der **Endbahnhof** steht. Kurz davor beginnt der **ENDSPURT**: Der Zug gibt Vollgas! Wer ankommt, wird mit einem großen **Feuerwerk** begrüßt, schaltet den **goldenen Zug** frei – und kann danach im **Endlos-Modus** weiterfahren (Level 21, 22, …).
 
 **Zugdesigns:** Alle **3 geschafften Level** wird ein neues Zugdesign freigeschaltet (Smaragd, Feuerwehr, Mitternacht, Bonbon, Dampf-Bronze, Tarnfarbe – und Gold für den Endbahnhof). Gewählt wird es in der **Lackiererei** im Depot und in jedem Bahnhof.
 **Schwierigkeit:** Im Depot stehen drei Schilder – **Leicht** (langsamer Zug, 30 s bis zur Abfahrt, weniger Gegner), **Mittel** und **Schwer** (schneller, nur 15 s, mehr Gegner, +1 Schraube je Level).
@@ -77,7 +84,7 @@ Steht ein Berg oder Baum zwischen dir und der Kamera, **senkt er sich ab**, dami
 
 ## Kartuschen
 
-Am Bahnhof steht ein **Kartuschen-Automat** mit zwei Angeboten: kleine Vorteile für den Rest der Fahrt (höchstens drei): Flinke Schuhe, Große Taschen (4 Holz/Stein), Kühler Kopf, Turbo-Werkstatt, Schraubenfinder. (Schneller abbauen kann man nicht kaufen.)
+Am Bahnhof steht ein **Kartuschen-Automat** mit zwei Angeboten: kleine Vorteile für den Rest der Fahrt: Kühler Kopf (Lok überhitzt langsamer), Turbo-Werkstatt und Schraubenfinder. Schneller laufen, mehr tragen oder schneller abbauen kann man nicht kaufen.
 
 ## Glücksrad-Waggon
 
@@ -95,7 +102,7 @@ Im Bahnhof stehen höchstens vier Angebote, die neuesten zuerst.
 
 ## Der Bahnhof zwischen den Levels
 
-Nach jedem Level kommst du in einen Bahnhof, in dem du herumlaufen kannst. Am Zug hängen **höchstens 5 Waggons**. **Leertaste an einem Waggon = in die Hand nehmen** – dann trägst du ihn und reihst ihn mit der Leertaste **an jeder beliebigen Stelle** des Zugs wieder ein, oder stellst ihn aufs **Abstellgleis** (oben links). So tauschst du Waggons aus. **E = Waggon ausbauen** (Stufe 1 → 4), auch auf dem Abstellgleis. Über jedem Waggon steht ein **Preisschild**: grün = genug Schrauben, rot = noch zu teuer. Werkstatt und Materialwaggon müssen zur Abfahrt am Zug hängen. Neue Waggons kaufst du auf den Podesten; ist der Zug voll, kommen sie aufs Abstellgleis. An den Wegweisern wählst du den normalen oder schweren Weg zum nächsten Level, am grünen Signal fährt der Host los.
+Nach jedem Level kommst du in einen Bahnhof, in dem du herumlaufen kannst. Am Zug hängen **höchstens 5 Waggons**. **Leertaste an einem Waggon = in die Hand nehmen** – dann trägst du ihn und reihst ihn mit der Leertaste **an jeder beliebigen Stelle** des Zugs wieder ein, oder stellst ihn aufs **Abstellgleis** (oben links). So tauschst du Waggons aus. **E = Waggon ausbauen** (Stufe 1 → 4), auch auf dem Abstellgleis. Über jedem Waggon steht seine Stufe (grün = Ausbau bezahlbar). Stehst du am Zug, zeigt rechts oben die Übersicht **„Dein Zug“** alle Waggons mit Stufe und Ausbaupreis, und unten erklärt eine **Info-Karte**, was der Stand oder Waggon vor dir kann, was er kostet und welche Taste du drückst. Werkstatt und Materialwaggon müssen zur Abfahrt am Zug hängen. Neue Waggons kaufst du auf den Podesten; ist der Zug voll, kommen sie aufs Abstellgleis. An den Wegweisern wählst du den normalen oder schweren Weg zum nächsten Level, am grünen Signal fährt der Host los.
 Auch im **Einzelspieler** startest du im Depot: Zug anschauen, Design und Schwierigkeit wählen, los geht’s mit Level 1.
 
 ## Zugtempo
@@ -108,7 +115,7 @@ Im Pausenmenü (oder mit F5) speicherst du den Spielstand, im Hauptmenü lädst 
 
 ## Konto
 
-Im Hauptmenü unter **Konto** meldest du dich mit E-Mail und Passwort an oder erstellst ein neues Konto. Danach werden Spielstände, Rekorde und freigeschaltete Level automatisch online gesichert – sie bleiben erhalten, auch wenn du das Spiel löschst, und du kannst auf einem anderen Computer weiterspielen. Wer schon ohne Konto gespielt hat, meldet sich einfach an: der bisherige Fortschritt wird übernommen. Nach dem Anmelden geht es mit **„Los geht’s – jetzt spielen!“** direkt ins Spiel.
+Im Hauptmenü unter **Konto** meldest du dich mit E-Mail und Passwort an oder erstellst ein neues Konto. Danach werden Spielstände, Rekorde und freigeschaltete Level automatisch online gesichert – sie bleiben erhalten, auch wenn du das Spiel löschst, und du kannst auf einem anderen Computer weiterspielen. Wer schon ohne Konto gespielt hat, meldet sich einfach an: der bisherige Fortschritt wird übernommen. Nach dem Anmelden geht es mit **„Los geht’s – jetzt spielen!“** direkt ins Spiel. Mit einem **Admin-Konto** erscheint im Hauptmenü zusätzlich die **Testwelt**: Bahnhof mit 999 Schrauben, allen Zugdesigns und allen Waggons, freie Levelwahl (1–20), auf Wunsch eine Lok, die nie überhitzt, und ein Zug, der erst auf Knopfdruck losfährt. Die Testwelt zählt nicht für Statistik und Spielstände.
 
 ## Online-Koop (bis 4 Spieler)
 

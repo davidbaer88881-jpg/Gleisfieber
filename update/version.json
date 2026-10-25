@@ -1,13 +1,13 @@
 {
- "version": "0.9.1",
- "notes": "Der Zug wird jedes Level deutlich schneller",
+ "version": "0.10.0",
+ "notes": "Tunnel durch Berge (durchsichtiger Fels), Gebirge in Level 8 und 15, eine Quest pro Level (+1 Schraube), Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.",
  "min_base": "0.8.0",
  "pck": {
-  "windows": "Gleisfieber-0.9.1-windows.pck",
-  "macos": "Gleisfieber-0.9.1-macos.pck"
+  "windows": "Gleisfieber-0.10.0-windows.pck",
+  "macos": "Gleisfieber-0.10.0-macos.pck"
  },
  "sha256": {
-  "windows": "a4ed9f17c02773629a7e91fc424cd31fec9a67480acf580acadf99ede522a2fd",
-  "macos": "a4ed9f17c02773629a7e91fc424cd31fec9a67480acf580acadf99ede522a2fd"
+  "windows": "a7b65938bbdb01be800fa6c0b8f6987d23e53a001390c8a9529bc0773e199c4e",
+  "macos": "a7b65938bbdb01be800fa6c0b8f6987d23e53a001390c8a9529bc0773e199c4e"
  }
 }

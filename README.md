@@ -4,7 +4,7 @@ Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder
 
 Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-**Stand: Version 0.9.1** – 20 Level mit großem Finale am Endbahnhof, Zugdesigns, Nacht-Zyklus, Maulwürfe, Bremsschienen, Schafe wegtreten, Hupe und Rufe, Zoom und eigene Kamera, aufgeräumter Code.
+**Stand: Version 0.10.0** – Tunnel durch Berge (mit durchsichtigem Fels), neues Gebirge-Biom, eine Quest pro Level, Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.
 
 Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 
@@ -26,6 +26,7 @@ Projekt im Editor: **Godot 4.7.2** (Standard, nicht .NET) → *Importieren* → 
 | Laufen | WASD / Pfeiltasten | linker Stick |
 | Aufheben · Ablegen · Tauschen (auf dem eigenen Feld) · Einladen · Gleise nehmen · Gleis legen · Lok löschen · Waggon benutzen · Kaufen | **Leertaste** (oder E) | A |
 | Brücke bauen (Holz in der Hand, vor dem Wasser; über Lava mit Stein) | **Leertaste** | A |
+| Tunnel bohren (Gleis in der Hand, am Streckenende vor dem Berg; kostet 2 Holz aus dem Lager) | **Leertaste** | A |
 | Rolle (schnell nach vorn) | **Shift** | B |
 | Werkzeug | automatisch beim Dagegenlaufen (Baum, Fels, Tier) | – |
 | Zug sofort losschicken | Enter | Y |
@@ -54,7 +55,16 @@ Beim ersten Start fragen Windows bzw. macOS, ob das Spiel Verbindungen annehmen 
 
 ---
 
-## Was neu ist in 0.9.1
+## Was neu ist in 0.10.0
+
+- **Tunnel:** Mit einem Gleis in der Hand am Streckenende auf einen Berg zeigen und Leertaste drücken – jedes Tunnelfeld kostet das Gleis + 2 Holz aus dem Materialwaggon, höchstens 4 Felder am Stück. Der Fels über dem Tunnel wird **durchsichtig** (man sieht den Zug darin), innen Stützbalken mit Laternen, an den Öffnungen gemauerte Portale, beim Bohren fliegen Brocken. Durch den Tunnel kann man laufen – außer wenn der Zug drin ist.
+- **Neues Biom „Gebirge“** in Level 8 und 15: Ein Bergkamm sperrt die ganze Karte, ein Tunnel ist Pflicht. Im Finale gibt es einen schmalen Felsgrat. In den anderen Leveln ist ein Tunnel eine Abkürzung durch normale Berge (nicht durch den Vulkan).
+- **Quests:** jedes Level eine zufällige Quest (oben links), geschafft = +1 Schraube. Zum Beispiel Schafe wegtreten, 9 auf einen Haufen stapeln, lange Geraden, viele Kurven, Bäume fällen – oder Verbote wie „nie rollen“, „kein Tier schlagen“, „die Lok darf nicht brennen“ und „lass die Lok 10 s brennen, erst dann löschen“.
+- **Admin-Testwelt:** Wer mit einem Admin-Konto angemeldet ist, bekommt im Hauptmenü die „Testwelt“: Bahnhof mit 999 Schrauben, allen Waggons und Zugdesigns, freie Levelwahl, Optionen „Lok überhitzt nie“ und „Zug fährt erst auf Knopfdruck“. Zählt nicht für Statistik und Spielstände. (Im Code stehen nur Prüfsummen der Admin-Adressen, keine Klartext-Adressen.)
+- **Bahnhof neu gestaltet:** große, kurze Schilder (Name + Preis), unten eine **Info-Karte** mit Beschreibung, Preis und Taste, am Zug die Übersicht **„Dein Zug“** mit Stufen und Ausbaupreisen. Meldungen haben jetzt einen dunklen Hintergrund und bleiben immer lesbar; beim Levelstart höchstens 3 Hinweise.
+- Kartuschen „Flinke Schuhe“ und „Große Taschen“ entfernt – schneller laufen oder mehr tragen kann man nicht mehr kaufen.
+
+## Was neu war in 0.9.1
 
 - Der Zug wird **jedes Level deutlich schneller** (+12 % statt +7 % je Level, auf allen Schwierigkeiten). Die Lok heizt dabei nicht schneller auf als bisher.
 

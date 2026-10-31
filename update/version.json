@@ -1,13 +1,13 @@
 {
- "version": "0.11.0",
- "notes": "Rückblick mit dem alten Lokführer nach Level 20, 6. Waggon (Lok oder 2 Waggons auf Stufe 4), Abstellgleis mit 10 Plätzen.",
+ "version": "0.12.0",
+ "notes": "Tutorial, Endlos-Strecke (auch online), Freunde & Weltrangliste, gespeicherte Rückblicke, mehr Waggonplätze, ruhigerer Vulkan, Statistik",
  "min_base": "0.8.0",
  "pck": {
-  "windows": "Gleisfieber-0.11.0-windows.pck",
-  "macos": "Gleisfieber-0.11.0-macos.pck"
+  "windows": "Gleisfieber-0.12.0-windows.pck",
+  "macos": "Gleisfieber-0.12.0-macos.pck"
  },
  "sha256": {
-  "windows": "bf24d2a72ea4276eae1550d8f933d3cd57e431a92333c8bc09e70ccaf4c0b23b",
-  "macos": "bf24d2a72ea4276eae1550d8f933d3cd57e431a92333c8bc09e70ccaf4c0b23b"
+  "windows": "e13a1a10914ca8a0ae73a76edd9d69ff45b0636f84c3f1d84921c7543e3027bc",
+  "macos": "e13a1a10914ca8a0ae73a76edd9d69ff45b0636f84c3f1d84921c7543e3027bc"
  }
 }

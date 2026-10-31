@@ -4,7 +4,7 @@ Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder
 
 Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-**Stand: Version 0.11.0** – Tunnel durch Berge (mit durchsichtigem Fels), neues Gebirge-Biom, eine Quest pro Level, Admin-Testwelt, neu gestalteter Bahnhof mit gut lesbaren Preisen.
+**Stand: Version 0.12.0** – Tutorial zum Ausprobieren, Endlos-Strecke (auch online), Freunde & Weltrangliste, gespeicherte Rückblicke, mehr Waggonplätze, ruhigerer Vulkan.
 
 Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 
@@ -55,7 +55,23 @@ Beim ersten Start fragen Windows bzw. macOS, ob das Spiel Verbindungen annehmen 
 
 ---
 
-## Was neu ist in 0.11.0
+## Was neu ist in 0.12.0
+
+- **Tutorial:** 11 kurze Schritte, jeden probiert man gleich selbst aus; der Zug wartet, bis alles geübt ist.
+- **Endlos-Strecke:** Die Welt wächst immer weiter, gemütlicher Zug, viel Wasser, wechselnde Biome, Zug-Shop jederzeit (B), Speichern jederzeit, eine Schraube alle 25 Gleise – allein oder online mit Freunden (Lobby → Modus).
+- **Freunde & Weltrangliste** (mit Konto): Spieler suchen, Anfragen schicken/annehmen, Ranglisten.
+- **Statistik** mit vielen neuen Zählern (Stein, Aufheben, Einladen, Löschen, Schafe, Hupen …).
+- **Rückblick** in guter Qualität (960×540 statt pixelig) und automatisch gespeichert – im Menü unter *Rückblicke*.
+- **Waggonplätze:** für je 2 Waggons auf Stufe 4 ein Platz mehr, bis 9; alle auf Stufe 4 = alle dürfen mit.
+- **Vulkan** spuckt viel seltener (1 Brocken etwa alle 30–40 s), manchmal in Wald/Fels; Teiche links und rechts vom Vulkan.
+- **Maulwurfshügel** mit Spitzhacke **oder** Axt, auch wenn man draufsteht.
+- **Eigene Tasten** für „nur aufheben“ und „nur ablegen“ (Standard wie Leertaste).
+- **Kurve am letzten Gleis** geht jetzt auch, wenn der Zug schon darauf steht.
+- **Tiere** besser verteilt (keine Klumpen mehr), **Waschbär-Dieb** kommt früh und versteckt seine Beute.
+- **Zugtempo und Schwierigkeit** gelten ab Fahrtbeginn und ändern sich während der Fahrt nicht mehr.
+- Hauptmenü kompakter (alles passt auf den Bildschirm).
+
+## Was neu war in 0.11.0
 
 - **Rückblick nach Level 20:** Nach dem Endbahnhof kommt ein Rückblick mit echten Szenen aus eurer Fahrt (Schaf im Tiefflug, Lok brennt, Wildschwein, Tunnelbohrer, knapp am Gleisende …). Ein alter Lokführer, der euch heimlich vom Stellwerk aus beobachtet hat, kommentiert mit eigener Stimme, wie ihr euch angestellt habt – die Sprüche richten sich danach, was wirklich passiert ist. Leertaste: weiter, Esc: überspringen; im Siegerbildschirm lässt er sich nochmal ansehen.
 - **6. Waggon:** Ist die Lok oder sind zwei Waggons auf Stufe 4, passt ein 6. Waggon an den Zug.

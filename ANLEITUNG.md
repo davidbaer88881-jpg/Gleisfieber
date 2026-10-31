@@ -1,4 +1,6 @@
-# Gleisfieber – Anleitung (Version 0.11.0)
+# Gleisfieber – Anleitung (Version 0.12.0)
+
+**Neu hier?** Im Hauptmenü gibt es ein kurzes **Tutorial**: 11 kleine Schritte (laufen, Axt aufheben, Baum fällen, Holz und Stein einladen, Gleis holen und legen, Eimer füllen, Lok löschen, Rolle, Zug starten). Jeden Schritt probierst du gleich selbst aus – der Zug wartet so lange, bis du alles einmal gemacht hast.
 
 ## Steuerung
 
@@ -13,11 +15,13 @@
 | Bahnhof: Waggon ausbauen | E | X |
 | Lok löschen | Leertaste mit vollem Eimer am Zug – von jeder Seite, auch vorne und hinten | A |
 | Brücke bauen | Holz in der Hand, vor dem Wasser stehen, Leertaste (über Lava: Stein) | A |
+| Nur aufheben / nur ablegen | eigene Tasten unter *Einstellungen → Tastenbelegung* (Standard: wie die Leertaste) | – |
 | Tunnel bohren | Gleis in der Hand, am Streckenende vor dem Berg stehen, Leertaste (+2 Holz aus dem Materialwaggon) | A |
 | Rolle (schneller nach vorne – auch an Tieren vorbei) | Shift | B |
 | Schaf wegtreten | Leertaste – vor dem Schaf stehen (Ziegen und Gegner nicht) | A |
 | Kamera näher / weiter weg | Q (drei Stufen) | RB |
 | Hupe (Schafe erschrecken sich!) | T | LB |
+| Zug-Shop (nur Endlos-Strecke) | B | – |
 | Rufen: Super! · Hilfe! · Holz! · Stein! | 1 · 2 · 3 · 4 | – |
 | Werkzeug benutzen | automatisch: gegen Baum, Fels, Tier oder Maulwurfshügel laufen | – |
 | Zug sofort losschicken | Enter | Y |
@@ -57,19 +61,19 @@ Durch einen festen Berg kommt das Gleis mit einem **Tunnel**: Stell dich mit ein
 
 ## Brücken
 
-Stell dich mit **Holz in der Hand** vor ein Wasserfeld und drück die **Leertaste**: Aus 1 Holz wird ein Stück aufgeschüttete Wiese. Darauf kannst du laufen und **Gleise verlegen**. Über **Lava** geht das genauso mit **Stein**. Nur den kleinen Teich am Start kann man nicht zuschütten – den braucht ihr zum Löschen. Im Vulkanlevel gibt es zusätzlich einen Teich direkt am Vulkan. In schweren Levels (schwere Route und ab Level 7 jedes zweite Level) fließt ein breiter Fluss **quer über die ganze Karte**: Da muss die Strecke drüber. Wasser und Lava berühren sich nie – dazwischen liegt immer ein Streifen erstarrter Boden.
+Stell dich mit **Holz in der Hand** vor ein Wasserfeld und drück die **Leertaste**: Aus 1 Holz wird ein Stück aufgeschüttete Wiese. Darauf kannst du laufen und **Gleise verlegen**. Über **Lava** geht das genauso mit **Stein**. Nur den kleinen Teich am Start kann man nicht zuschütten – den braucht ihr zum Löschen. In Vulkanleveln gibt es zusätzlich Teiche **links und rechts vom Vulkan**. In schweren Levels (schwere Route und ab Level 7 jedes zweite Level) fließt ein breiter Fluss **quer über die ganze Karte**: Da muss die Strecke drüber. Wasser und Lava berühren sich nie – dazwischen liegt immer ein Streifen erstarrter Boden.
 
 ## Gegner und Gemeinheiten
 
 - **Steinschlag** (Canyon, später öfter): Dunkle Schatten mit rotem „!“ am Boden – 1,6 Sekunden später schlagen dort Felsbrocken ein. Wer drunter steht, ist kurz betäubt. Werkzeuge werden dabei nie eingemauert.
-- **Vulkan** (ab Level 4): Ein großer Vulkan steht mitten auf der Karte und spuckt alle paar Sekunden glühende Brocken aus. Wo sie landen (rote Kreise), entstehen **feste Magmablöcke**, die man nicht abbauen kann – die Karte verändert sich, plötzlich muss man außen herum. Direkt vors Gleisende fällt nichts, und der Weg zum Bahnhof bleibt immer offen.
+- **Vulkan** (ab Level 4): Ein großer Vulkan steht mitten auf der Karte und spuckt etwa **alle 30–40 Sekunden einen** glühenden Brocken aus (ab Level 13 manchmal zwei). Wo er landet (roter Kreis), entsteht ein **fester Magmablock**, den man nicht abbauen kann – manchmal auch mitten im Wald oder auf einem Felsen. Ab und zu fällt einer ein Stück vor euch in Baurichtung, aber nie direkt vors Gleisende, und der Weg zum Bahnhof bleibt immer offen.
 - **Spinnen** (Sumpf, Nacht, Labyrinth, ab Level 8 überall): zielen kurz und schießen dann ein Netz – du klebst gut 2,5 Sekunden fest.
 - **Explosionen** (Dynamit, Glücksrad): Wer zu nah steht, ist **5 Sekunden** benommen.
 - **Dunkelheit** (Nacht, Labyrinth, ab Level 10 jedes zweite Level): Jede Minute wird es für **30 Sekunden stockdunkel** – dann sieht man nur noch etwa **5 Felder** um sich herum, und der Zug leuchtet. Kurz vorher warnt das Spiel.
-- **Maulwürfe** (über Level 10): Hat man **5 Gleise oder mehr vorgebaut**, buddelt ab und zu ein Maulwurf einen Hügel auf das 5. Gleis vor der Lok. Den musst du mit der **Spitzhacke** abtragen (3 Schläge) – sonst fährt der Zug drauf und entgleist!
+- **Maulwürfe** (über Level 10): Hat man **5 Gleise oder mehr vorgebaut**, buddelt ab und zu ein Maulwurf einen Hügel auf das 5. Gleis vor der Lok. Den musst du mit der **Spitzhacke oder der Axt** abtragen (3 Schläge, auch wenn du direkt darauf stehst) – sonst fährt der Zug drauf und entgleist!
 - **Bremsschienen** (sehr selten): Irgendwo liegen 3 rot-gelbe Bremsschienen. Aufheben und wie normale Gleise verlegen – darauf fährt der Zug langsamer. Gut für knifflige Stellen!
 - **Wildschweine** (ab Level 3, auf den freien Lichtungen): Kommt man ihnen zu nah, scharren sie (rotes „!“) und rennen dann los – wer getroffen wird, ist kurz betäubt. Rechtzeitig zur Seite rollen! 6 Treffer vertreiben sie.
-- **Waschbär-Diebe** (ab Level 6): schleichen („?“) zum Materialwaggon, klauen 2 Holz oder Stein und rennen weg. **Ein Treffer** mit Axt oder Spitzhacke, und die Beute fällt herunter. Sonst lassen sie sie nach einer Weile irgendwo fallen.
+- **Waschbär-Diebe** (ab Level 6): kommen schon **gleich am Anfang** (und vielleicht noch einmal in der Mitte), schleichen („?“) zum Materialwaggon, klauen 2 Holz oder Stein und rennen weg. **Ein Treffer** mit Axt oder Spitzhacke, und die Beute fällt herunter. Erwischt ihr sie nicht rechtzeitig, **verstecken sie die Beute – die ist dann weg**.
 
 ## Die Level
 
@@ -104,20 +108,28 @@ Im Bahnhof stehen höchstens vier Angebote, die neuesten zuerst.
 
 ## Der Bahnhof zwischen den Levels
 
-Nach jedem Level kommst du in einen Bahnhof, in dem du herumlaufen kannst. Am Zug hängen **höchstens 5 Waggons** – ist die Lok oder sind zwei Waggons auf Stufe 4, passt ein **6. Waggon** dran. Das Abstellgleis hat Platz für 10 Waggons. **Leertaste an einem Waggon = in die Hand nehmen** – dann trägst du ihn und reihst ihn mit der Leertaste **an jeder beliebigen Stelle** des Zugs wieder ein, oder stellst ihn aufs **Abstellgleis** (oben links). So tauschst du Waggons aus. **E = Waggon ausbauen** (Stufe 1 → 4), auch auf dem Abstellgleis. Über jedem Waggon steht seine Stufe (grün = Ausbau bezahlbar). Stehst du am Zug, zeigt rechts oben die Übersicht **„Dein Zug“** alle Waggons mit Stufe und Ausbaupreis, und unten erklärt eine **Info-Karte**, was der Stand oder Waggon vor dir kann, was er kostet und welche Taste du drückst. Werkstatt und Materialwaggon müssen zur Abfahrt am Zug hängen. Neue Waggons kaufst du auf den Podesten; ist der Zug voll, kommen sie aufs Abstellgleis. An den Wegweisern wählst du den normalen oder schweren Weg zum nächsten Level, am grünen Signal fährt der Host los.
+Nach jedem Level kommst du in einen Bahnhof, in dem du herumlaufen kannst. Am Zug hängen erst einmal **höchstens 5 Waggons**. Für **je 2 Waggons auf Stufe 4** gibt es einen Platz mehr (die Lok auf Stufe 4 zählt wie zwei), bis zu **9 Waggons**. Sind **alle** deine Waggons auf Stufe 4, dürfen **alle** an den Zug. Das Abstellgleis hat Platz für 10 Waggons. **Leertaste an einem Waggon = in die Hand nehmen** – dann trägst du ihn und reihst ihn mit der Leertaste **an jeder beliebigen Stelle** des Zugs wieder ein, oder stellst ihn aufs **Abstellgleis** (oben links). So tauschst du Waggons aus. **E = Waggon ausbauen** (Stufe 1 → 4), auch auf dem Abstellgleis. Über jedem Waggon steht seine Stufe (grün = Ausbau bezahlbar). Stehst du am Zug, zeigt rechts oben die Übersicht **„Dein Zug“** alle Waggons mit Stufe und Ausbaupreis, und unten erklärt eine **Info-Karte**, was der Stand oder Waggon vor dir kann, was er kostet und welche Taste du drückst. Werkstatt und Materialwaggon müssen zur Abfahrt am Zug hängen. Neue Waggons kaufst du auf den Podesten; ist der Zug voll, kommen sie aufs Abstellgleis. An den Wegweisern wählst du den normalen oder schweren Weg zum nächsten Level, am grünen Signal fährt der Host los.
 Auch im **Einzelspieler** startest du im Depot: Zug anschauen, Design und Schwierigkeit wählen, los geht’s mit Level 1.
 
-## Zugtempo
+## Zugtempo und Schwierigkeit
 
-Standard ist **Automatisch**: allein fährt der Zug langsam, mit jedem weiteren Spieler schneller, und jedes Level ein bisschen schneller. Unter *Einstellungen → Zugtempo* (oder in der Lobby) lässt es sich manuell festlegen.
+Standard ist **Automatisch**: allein fährt der Zug langsam, mit jedem weiteren Spieler schneller, und jedes Level ein bisschen schneller. Unter *Einstellungen → Zugtempo* (oder in der Lobby) lässt es sich manuell festlegen. **Tempo und Schwierigkeit gelten ab Fahrtbeginn:** Du stellst sie vorher ein (Einstellungen, Lobby, im Depot an den Schwierigkeits-Ständen); während einer Fahrt bleiben sie gleich. Eine Änderung gilt ab der nächsten Fahrt.
 
-## Speichern, Statistik, Replay
+## Endlos-Strecke
 
-Im Pausenmenü (oder mit F5) speicherst du den Spielstand, im Hauptmenü lädst du ihn. Am Bahnhof wird automatisch gespeichert. Unter *Statistik* stehen deine Rekorde und die letzten Fahrten. Nach einer Niederlage kannst du dir die Runde als **Replay im Zeitraffer** ansehen – mit allen Leveln dieser Fahrt hintereinander (Enter springt zum nächsten Level). **Online:** Der Host speichert im Pausenmenü auf einem *Online-Platz* (oder F5); am Bahnhof wird auch online automatisch gespeichert. Später: Online-Koop → Lobby erstellen → **„Spielstand laden …“** → Spielstand wählen → starten. Mitspieler mit demselben Namen bekommen ihren Platz und ihr Werkzeug zurück, wer fehlt, kann jederzeit nachkommen.
+Hauptmenü → **Endlos-Strecke** (online: in der Lobby *Modus → Endlos-Strecke*). Hier gibt es keinen Zielbahnhof – die Welt wächst einfach immer weiter, solange ihr baut. Der Zug fährt **gemütlicher** und wird langsamer heiß, es gibt **viel Wasser** (in jedem Abschnitt mehrere Teiche), keine Vulkane und keinen Steinschlag, und ab und zu wechselt das **Biom** (Wiese, Sumpf, Schnee, Wüste, Canyon, Gebirge, Nacht). **Alle 25 Gleise gibt es eine Schraube.** Mit **B** öffnest du jederzeit den **Zug-Shop**: neue Waggons kaufen (hängen sich sofort an) oder Waggons ausbauen. **Speichern geht jederzeit** (F5 oder Pausenmenü). Euer weitester Endlos-Rekord steht in der Statistik und in der Weltrangliste.
+
+## Speichern, Statistik, Replay, Rückblicke
+
+Im Pausenmenü (oder mit F5) speicherst du den Spielstand, im Hauptmenü lädst du ihn. Am Bahnhof wird automatisch gespeichert. Unter *Statistik* stehen deine Rekorde, die letzten Fahrten und viele Zähler: gefällte Bäume bzw. Holz, abgebauter Stein, aufgehobene Sachen, eingeladene Ladungen, gelöschte Feuer, getretene Schafe, Hupen, Rollen, Brücken, Tunnel und mehr. Jeder **Rückblick** nach Level 20 wird automatisch gespeichert – im Hauptmenü unter **Rückblicke** kannst du ihn jederzeit wieder ansehen (in guter Bildqualität). Nach einer Niederlage kannst du dir die Runde als **Replay im Zeitraffer** ansehen – mit allen Leveln dieser Fahrt hintereinander (Enter springt zum nächsten Level). **Online:** Der Host speichert im Pausenmenü auf einem *Online-Platz* (oder F5); am Bahnhof wird auch online automatisch gespeichert. Später: Online-Koop → Lobby erstellen → **„Spielstand laden …“** → Spielstand wählen → starten. Mitspieler mit demselben Namen bekommen ihren Platz und ihr Werkzeug zurück, wer fehlt, kann jederzeit nachkommen.
 
 ## Konto
 
 Im Hauptmenü unter **Konto** meldest du dich mit E-Mail und Passwort an oder erstellst ein neues Konto. Danach werden Spielstände, Rekorde und freigeschaltete Level automatisch online gesichert – sie bleiben erhalten, auch wenn du das Spiel löschst, und du kannst auf einem anderen Computer weiterspielen. Wer schon ohne Konto gespielt hat, meldet sich einfach an: der bisherige Fortschritt wird übernommen. Nach dem Anmelden geht es mit **„Los geht’s – jetzt spielen!“** direkt ins Spiel. Mit einem **Admin-Konto** erscheint im Hauptmenü zusätzlich die **Testwelt**: Bahnhof mit 999 Schrauben, allen Zugdesigns und allen Waggons, freie Levelwahl (1–20), auf Wunsch eine Lok, die nie überhitzt, und ein Zug, der erst auf Knopfdruck losfährt. Die Testwelt zählt nicht für Statistik und Spielstände.
+
+## Freunde & Weltrangliste
+
+Mit einem Konto (siehe oben) findest du im Hauptmenü unter **Freunde** zwei Reiter: **Weltrangliste** (höchstes Level, geschaffte Level, wie oft am Endbahnhof, längste Endlos-Strecke, verlegte Gleise) und **Freunde**: Namen suchen, **Freundschaftsanfrage** schicken, Anfragen annehmen oder ablehnen. Deine Freunde siehst du mit ihren Rekorden.
 
 ## Online-Koop (bis 4 Spieler)
 

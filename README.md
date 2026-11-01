@@ -4,7 +4,7 @@ Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder
 
 Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-**Stand: Version 0.12.1** – Tutorial zum Ausprobieren, Endlos-Strecke (auch online), Freunde & Weltrangliste, gespeicherte Rückblicke, mehr Waggonplätze, ruhigerer Vulkan.
+**Stand: Version 0.12.2** – Tutorial zum Ausprobieren, Endlos-Strecke (auch online), Freunde & Weltrangliste, gespeicherte Rückblicke, mehr Waggonplätze, ruhigerer Vulkan.
 
 Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 
@@ -55,7 +55,11 @@ Beim ersten Start fragen Windows bzw. macOS, ob das Spiel Verbindungen annehmen 
 
 ---
 
-## Was neu ist in 0.12.1
+## Was neu ist in 0.12.2
+
+- **Aufheben und Ablegen auf eigenen Tasten machen jetzt nur das:** kein Gleisbau, kein Einladen, kein Schaf-Treten aus Versehen. Beide auf dieselbe Taste legen = eine Taste nur zum Aufheben und Ablegen. Ablegen auf einen gleichen Haufen legt dazu.
+
+## Was neu war in 0.12.1
 
 - **Esc führt überall zurück:** aus jedem Menü und Untermenü (auch Tastenbelegung, Lobby, Spielstand-Auswahl) kommt man mit Esc eine Ebene zurück.
 - **Fenster bleibt, wie es ist:** Vollbild oder Fenstergröße ändern sich nicht mehr von selbst (früher konnte das Fenster beim Ändern einer Einstellung, etwa Kamera-Zoom oder Schwierigkeit, kleiner werden). F11 schaltet Vollbild um.

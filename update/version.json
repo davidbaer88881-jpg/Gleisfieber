@@ -1,13 +1,13 @@
 {
- "version": "0.12.1",
- "notes": "Esc führt überall zurück, Fenster/Vollbild bleibt wie eingestellt, Bahnhof ohne verdeckende Anzeigen",
+ "version": "0.12.2",
+ "notes": "Aufheben/Ablegen-Tasten machen nur das (auch auf einer Taste), Esc führt überall zurück, Fenster bleibt wie eingestellt, Bahnhof ohne verdeckende Anzeigen",
  "min_base": "0.8.0",
  "pck": {
-  "windows": "Gleisfieber-0.12.1-windows.pck",
-  "macos": "Gleisfieber-0.12.1-macos.pck"
+  "windows": "Gleisfieber-0.12.2-windows.pck",
+  "macos": "Gleisfieber-0.12.2-macos.pck"
  },
  "sha256": {
-  "windows": "f8afff65c24db06ed7b883e2ade684bf516ebeb93f61f001a5c3b40c91a7b577",
-  "macos": "f8afff65c24db06ed7b883e2ade684bf516ebeb93f61f001a5c3b40c91a7b577"
+  "windows": "1f9396c38ee3b8482e2bc094be14218953df4266f6e3e2bca7ebff39ce47d210",
+  "macos": "1f9396c38ee3b8482e2bc094be14218953df4266f6e3e2bca7ebff39ce47d210"
  }
 }

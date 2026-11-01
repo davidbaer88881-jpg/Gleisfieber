@@ -1,4 +1,4 @@
-# Gleisfieber – Anleitung (Version 0.12.1)
+# Gleisfieber – Anleitung (Version 0.12.2)
 
 **Neu hier?** Im Hauptmenü gibt es ein kurzes **Tutorial**: 11 kleine Schritte (laufen, Axt aufheben, Baum fällen, Holz und Stein einladen, Gleis holen und legen, Eimer füllen, Lok löschen, Rolle, Zug starten). Jeden Schritt probierst du gleich selbst aus – der Zug wartet so lange, bis du alles einmal gemacht hast.
 
@@ -15,7 +15,7 @@
 | Bahnhof: Waggon ausbauen | E | X |
 | Lok löschen | Leertaste mit vollem Eimer am Zug – von jeder Seite, auch vorne und hinten | A |
 | Brücke bauen | Holz in der Hand, vor dem Wasser stehen, Leertaste (über Lava: Stein) | A |
-| Nur aufheben / nur ablegen | eigene Tasten unter *Einstellungen → Tastenbelegung* (Standard: wie die Leertaste) | – |
+| Nur aufheben / nur ablegen | eigene Tasten unter *Einstellungen → Tastenbelegung*. Diese Tasten machen **nur** Aufheben bzw. Ablegen – kein Gleisbau, kein Einladen, kein Schaf-Treten. Legst du **beide auf dieselbe Taste**, ist das eine Taste nur zum Aufheben und Ablegen (mit vollen Händen auf einem anderen Gegenstand: tauschen). Ohne eigene Belegung macht die Leertaste alles wie gewohnt. | – |
 | Tunnel bohren | Gleis in der Hand, am Streckenende vor dem Berg stehen, Leertaste (+2 Holz aus dem Materialwaggon) | A |
 | Rolle (schneller nach vorne – auch an Tieren vorbei) | Shift | B |
 | Schaf wegtreten | Leertaste – vor dem Schaf stehen (Ziegen und Gegner nicht) | A |

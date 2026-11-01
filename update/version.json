@@ -1,13 +1,13 @@
 {
- "version": "0.12.0",
- "notes": "Tutorial, Endlos-Strecke (auch online), Freunde & Weltrangliste, gespeicherte Rückblicke, mehr Waggonplätze, ruhigerer Vulkan, Statistik",
+ "version": "0.12.1",
+ "notes": "Esc führt überall zurück, Fenster/Vollbild bleibt wie eingestellt, Bahnhof ohne verdeckende Anzeigen",
  "min_base": "0.8.0",
  "pck": {
-  "windows": "Gleisfieber-0.12.0-windows.pck",
-  "macos": "Gleisfieber-0.12.0-macos.pck"
+  "windows": "Gleisfieber-0.12.1-windows.pck",
+  "macos": "Gleisfieber-0.12.1-macos.pck"
  },
  "sha256": {
-  "windows": "e13a1a10914ca8a0ae73a76edd9d69ff45b0636f84c3f1d84921c7543e3027bc",
-  "macos": "e13a1a10914ca8a0ae73a76edd9d69ff45b0636f84c3f1d84921c7543e3027bc"
+  "windows": "f8afff65c24db06ed7b883e2ade684bf516ebeb93f61f001a5c3b40c91a7b577",
+  "macos": "f8afff65c24db06ed7b883e2ade684bf516ebeb93f61f001a5c3b40c91a7b577"
  }
 }

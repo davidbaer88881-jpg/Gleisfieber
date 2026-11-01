@@ -4,7 +4,7 @@ Kooperatives Gleisbau-Spiel in Godot 4 für 1–4 Spieler (auch online): Wälder
 
 Spielgefühl, Kamera und Ablauf orientieren sich an *Unrailed! 2: Back on Track*. Alle Modelle, Shader, Sounds und der gesamte Code sind eigenständig erstellt – es werden keine Inhalte des Originals verwendet.
 
-**Stand: Version 0.12.0** – Tutorial zum Ausprobieren, Endlos-Strecke (auch online), Freunde & Weltrangliste, gespeicherte Rückblicke, mehr Waggonplätze, ruhigerer Vulkan.
+**Stand: Version 0.12.1** – Tutorial zum Ausprobieren, Endlos-Strecke (auch online), Freunde & Weltrangliste, gespeicherte Rückblicke, mehr Waggonplätze, ruhigerer Vulkan.
 
 Die ausführliche Spielanleitung steht in **[ANLEITUNG.md](ANLEITUNG.md)** (und im Spiel unter F1). Was getestet wurde – und was nicht –, steht in **[docs/TESTBERICHT.md](docs/TESTBERICHT.md)**.
 
@@ -55,7 +55,13 @@ Beim ersten Start fragen Windows bzw. macOS, ob das Spiel Verbindungen annehmen 
 
 ---
 
-## Was neu ist in 0.12.0
+## Was neu ist in 0.12.1
+
+- **Esc führt überall zurück:** aus jedem Menü und Untermenü (auch Tastenbelegung, Lobby, Spielstand-Auswahl) kommt man mit Esc eine Ebene zurück.
+- **Fenster bleibt, wie es ist:** Vollbild oder Fenstergröße ändern sich nicht mehr von selbst (früher konnte das Fenster beim Ändern einer Einstellung, etwa Kamera-Zoom oder Schwierigkeit, kleiner werden). F11 schaltet Vollbild um.
+- **Bahnhof und Depot ohne Sichtsperren:** „Dein Zug“ kompakt unten links, die Info-Karte und Meldungen wandern immer auf die Seite, auf der deine Figur nicht steht; die Titelleiste oben ist im Bahnhof aus.
+
+## Was neu war in 0.12.0
 
 - **Tutorial:** 11 kurze Schritte, jeden probiert man gleich selbst aus; der Zug wartet, bis alles geübt ist.
 - **Endlos-Strecke:** Die Welt wächst immer weiter, gemütlicher Zug, viel Wasser, wechselnde Biome, Zug-Shop jederzeit (B), Speichern jederzeit, eine Schraube alle 25 Gleise – allein oder online mit Freunden (Lobby → Modus).

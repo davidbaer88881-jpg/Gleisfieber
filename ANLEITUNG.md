@@ -1,4 +1,4 @@
-# Gleisfieber – Anleitung (Version 0.12.0)
+# Gleisfieber – Anleitung (Version 0.12.1)
 
 **Neu hier?** Im Hauptmenü gibt es ein kurzes **Tutorial**: 11 kleine Schritte (laufen, Axt aufheben, Baum fällen, Holz und Stein einladen, Gleis holen und legen, Eimer füllen, Lok löschen, Rolle, Zug starten). Jeden Schritt probierst du gleich selbst aus – der Zug wartet so lange, bis du alles einmal gemacht hast.
 
@@ -26,8 +26,11 @@
 | Werkzeug benutzen | automatisch: gegen Baum, Fels, Tier oder Maulwurfshügel laufen | – |
 | Zug sofort losschicken | Enter | Y |
 | Schnellspeichern | F5 | – |
-| Pause / Menü | Esc oder P | Start |
+| Pause / Menü · in Menüs: eine Ebene zurück | Esc oder P | Start / B |
+| Vollbild an/aus | F11 | – |
 | Diese Anleitung | F1 | Select |
+
+**Esc führt in jedem Menü zurück** (Einstellungen, Tastenbelegung, Statistik, Rückblicke, Freunde, Spiel laden, Lobby …) – man bleibt nirgends hängen. Die Fenstergröße bzw. das Vollbild bleibt immer so, wie du es eingestellt hast, auch beim Wechsel zwischen Menü, Ladebildschirm, Level und Bahnhof.
 
 Alle Tasten lassen sich unter *Einstellungen → Tastenbelegung ändern* umlegen.
 
